@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "local-stdio-calculator": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "calculator"]
+    },
+    "english-tutor": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["english_tutor.py"],
+      "description": "英语口语家教1v1服务 - 提供对话练习、语法纠错、词汇推荐等功能"
+    },
+    "remote-sse-server": {
+      "type": "sse",
+      "url": "https://api.example.com/sse",
+      "disabled": true
+    },
+    "remote-http-server": {
+      "type": "http",
+      "url": "https://api.example.com/mcp",
+      "disabled": true
+    }
+  }
+}

@@ -1,0 +1,1587 @@
+{
+  "Tài liệu giới thiệu hệ sinh thái giải pháp số MobiFone": {
+    "Mục lục": {
+      "Hạ tầng số Cloud": [
+        "Dịch vụ Thuê chỗ đặt thiết bị MobiFone Co-location",
+        "Dịch vụ Máy chủ ảo MobiFone Cloud",
+        "Dịch vụ Lưu trữ Website, Email MobiFone Hosting",
+        "Dịch vụ Cung cấp nền tảng Kubernetes",
+        "Dịch vụ Cân bằng tải MobiFone Load Balancer",
+        "Dịch vụ MobiFone Virtual Private Cloud",
+        "Dịch vụ Lưu trữ đám mây dạng Khối",
+        "Dịch vụ Lưu trữ đám mây dạng Đối tượng",
+        "Dịch vụ Lưu trữ đám mây dạng Tệp",
+        "Dịch vụ Vận hành và quản lý Cloud",
+        "Dịch vụ Lưu trữ cho khách hàng cá nhân mobiCloud"
+      ],
+      "Giải pháp số": {
+        "Bộ Sản Phẩm Mobifone Smart Office": [
+          "Giải pháp Quản lý văn bản MobiFone eOffice",
+          "Nền tảng Họp trực tuyến thế hệ mới MobiFone Meet",
+          "Giải pháp Quản lý công việc MobiFone eWork",
+          "Giải pháp Quản lý nhân sự MobiFone HRM",
+          "Giải pháp Đào tạo trực tuyến MobiFone eLearning",
+          "Giải pháp Phòng họp không giấy tờ MobiFone eCabinet"
+        ],
+        "Bộ sản phẩm cho SMEs": [
+          "Dịch vụ Chứng thực chữ ký số công cộng MobiFone CA",
+          "Giải pháp Hóa đơn điện tử MobiFone Invoice",
+          "Giải pháp Phần mềm kế toán MobiFone Accounting Solution",
+          "Giải pháp Quản lý bán hàng MobiFone 1POS",
+          "Giải pháp Hợp đồng điện tử có tích xanh MobiFone eContract",
+          "Phần mềm Bảo hiểm xã hội MobiFone mBH",
+          "Phần mềm Quản lý hóa đơn điện tử MobiFone IMS"
+        ],
+        "Hệ sinh thái Du lịch thông minh (MobiFone Smart Travel)": [
+          "Ứng dụng Du lịch thông minh MobiFone Smart Travel",
+          "Giải pháp Số hóa địa điểm du lịch AR/VR360",
+          "Cổng thông tin du lịch",
+          "Triển lãm ảo/Gian hàng ảo"
+        ],
+        "Chuyển đổi số công tác Đảng": "Giải pháp Sổ tay Đảng viên",
+        "Chuyển đổi số Báo chí": "Giải pháp Tòa soạn hội tụ",
+        "Phát thanh số": [
+          "Giải pháp Truyền thanh thông minh",
+          "Giải pháp Quản lý thông tin nguồn thông minh"
+        ],
+        "Nhóm sản phẩm AI": [
+          "Giải pháp Tự động hóa tác vụ RPA",
+          "Giải pháp Trợ lý ảo AI",
+          "Bộ giải pháp Giám sát thông minh",
+          "Giải pháp Chuyển đổi giọng nói thành văn bản Speech-to-Text",
+          "Giải pháp Chuyển đổi văn bản thành giọng nói Text-to-Speech",
+          "Giải pháp Định danh khách hàng MobiFone eKYC"
+        ],
+        "Nhóm sản phẩm IOT": [
+          "Giải pháp Nhà thông minh MobiFone",
+          "Giải pháp Đồng hồ nước thông minh",
+          "Giải pháp Camera gia đình MobiFone",
+          "Giải pháp Loa thần tài MobiFone (MobiFone QR sound)"
+        ],
+        "Nhóm sản phẩm An ninh mạng": [
+          "Sản phẩm Internet an toàn cho thuê bao MobiFone",
+          "Sản phẩm Phòng chống Virus (Antivirus – AV) cho các máy chủ Cloud",
+          "Dịch vụ Kiểm định, kiểm tra, đánh giá an toàn thông tin",
+          "Dịch vụ Giám sát ATTT – SOC",
+          "Sản phẩm Tường lửa ứng dụng Website OWAF (Open Web Application Firewall)",
+          "Dịch vụ Diễn tập an toàn thông tin"
+        ]
+      },
+      "Nội dung số": [
+        "Nền tảng Nông nghiệp số mobiAgri",
+        "Hệ sinh thái Tài chính số MobiFone Money",
+        "Hệ sinh thái Giáo dục số mobiEdu",
+        "Nền tảng Truyền hình Internet đa nền tảng ClipTV",
+        "Nền tảng Online Gaming MobiFone - MobiGames",
+        "Nền tảng Giải trí tương tác mobiOn"
+      ]
+    },
+    "Chương 1": {
+      "MobiFone Co-location": {
+        "Thông tin": [
+          "Dịch vụ Thuê chỗ đặt thiết bị MobiFone",
+          "Co-location",
+          "Dịch vụ cung cấp không gian hạ tầng chỗ đặt, hệ thống điện, điều hòa và các thiết bị liên quan khác để triển khai hệ thống CNTT, đảm bảo hệ thống hoạt động 24/7, cho phép khách hàng toàn quyền sử dụng, kiểm soát hệ thống của mình. MobiFone cung cấp dịch vụ theo các hình thức: Thuê không gian theo U hoặc Rack."
+        ],
+        "Chức năng chính": [
+          "Dịch vụ thuê Full Rack: 42U, công suất điện, IPv4/IPv6, băng thông theo yêu cầu",
+          "Dịch vụ thuê theo U: 1U/2U/4U..., công suất điện 400W/900W..., IPv4/IPv6, Băng thông theo yêu cầu (trong nước, quốc tế)"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Tiêu chuẩn Uptime TIER 3 cho Hệ thống nguồn điện, nguồn UPS, điều hòa",
+          "Tiêu chuẩn TIA-942 cho Hệ thống mạng, chữa cháy tự động",
+          "Hệ thống bảo mật đa lớp đạt tiêu chuẩn ISO 27001, PCI DSS: Chống DDoS",
+          "Firewal 7 lớp",
+          "Bảo vệ vân tay, thẻ từ, nhận diện khuôn mặt, bảo vệ tại tủ thiết bị, giám sát camera 24/7"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-DC)"
+        ],
+        "Đối tượng khách hàng": [
+          "Doanh nghiệp vừa và nhỏ (SMEs), Doanh nghiệp lớn và tập đoàn đa quốc gia, Các công ty công nghệ và phát triển phần mềm, Ngành tài chính, ngân hàng và bảo hiểm, Các công ty truyền thông và dịch vụ nội dung số, Ngành chăm sóc sức khỏe và y tế, Ngành thương mại điện tử và bán lẻ, Các tổ chức chính phủ và cơ quan công quyền, Các công ty nghiên cứu khoa học và giáo dục, Doanh nghiệp trong quá trình chuyển đổi số"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Đặt thiết bị trong Data Center của MobiFone đạt các tiêu chuẩn Uptime TIER 3, ANSI/TIA-942 Rated 3",
+          "Nhiều Data Center phân bổ 3 miền Bắc - Trung - Nam",
+          "Lưu lượng truyền tải không giới hạn",
+          "Không gian đặt thiết bị lớn",
+          "Hỗ trợ kỹ thuật giám sát vận hành 24/7"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Công ty Cổ phần Dịch vụ - Dữ liệu Công nghệ thông tin Vi Na",
+          "Công ty Cổ phần VNETWORK",
+          "Công ty Cổ phần Tin học - Bản đồ Việt Nam",
+          "Công ty TNHH GOILACO",
+          "Công ty TNHH Tư vấn Giải pháp VTECH Việt Nam"
+        ]
+      },
+      "MobiFone Cloud": {
+        "Thông tin": [
+          "Dịch vụ Máy chủ ảo",
+          "Dịch vụ máy chủ ảo MobiFone Cloud cung cấp tài nguyên điện toán đám mây",
+          "(CPU, RAM, Storage) an toàn và linh hoạt, giúp khách hàng tối ưu chi phí thông qua phương thức thanh toán Pay as you go."
+        ],
+        "Chức năng chính": [
+          "Dịch vụ Máy ảo Cloud với cấu hình thay đổi linh hoạt phù hợp với nhu cầu của khách hàng",
+          "CPU: Up to 448 vCPU (CPU Intel Xeon Gold)",
+          "RAM: Up to 1TB (block 1GB)",
+          "SSD/HDD: Theo yêu cầu (block 10GB)",
+          "HĐH: Windows/Linux/Khác theo yêu cầu",
+          "IPv4/IPv6: Theo yêu cầu",
+          "Region: HN/HCM",
+          "Giám sát & cảnh báo: Giám sát và cảnh báo hiệu năng",
+          "Backup: Sao lưu máy chủ giúp đảm bảo an toàn cho hệ thống",
+          "Giám sát và cảnh báo hiệu năng. - Sao lưu máy chủ ảo giúp đảm bảo an toàn cho hệ thống"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Máy chủ sử dụng chip Intel Xeon Gold hiệu năng cao",
+          "Hiệu năng ổn định, SLA cam kết 99,95%",
+          "Hệ thống Cloud sử dụng thiết bị của các hãng nổi tiếng HP, Dell, Cisco, Juniper",
+          "Lưu trữ Strorage sử dụng dòng High End, full SSD"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)"
+        ],
+        "Đối tượng khách hàng": [
+          "Khách hàng cá nhân, Doanh nghiệp vừa và nhỏ, Doanh nghiệp lớn và tập đoàn đa quốc gia, Các công ty công nghệ và khởi nghiệp, Ngành tài chính, ngân hàng, bảo hiểm, Tổ chức chính phủ và các cơ quan công quyền, Ngành chăm sóc sức khỏe và y tế, Ngành thương mại điện tử và bán lẻ, Ngành sản xuất và công nghiệp, Ngành giáo dục và cơ sở đào tạo, Các doanh nghiệp chuyển đổi số"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Khả năng thay đổi linh hoạt: Khách hàng chỉ trả chi phí với tài nguyên sử dụng. Hiệu suất sử dụng cao",
+          "Tối ưu chi phí: Flexible, có thể thay đổi cấu hình theo nhu cầu khách hàng",
+          "Tính dự phòng: Đảm bảo hệ thống luôn online nhờ khả năng phân bố tài nguyên"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Công ty TNHH Metaserve",
+          "Công ty Cổ phần Giải pháp Công nghệ iNET",
+          "Công ty Cổ phần Công nghệ Thông tin Quốc tế Gimasys",
+          "Công ty Cổ phần Công nghệ Thông tin và Truyền thông Green Earth Việt Nam",
+          "Công ty Cổ phần Giải pháp Thời tiết WeatherPlus",
+          "Công ty Cổ phần TNHH Galaxy Digital Holdings",
+          "Công ty Cổ phần Công nghệ và Truyền thông Dagoras"
+        ]
+      },
+      "MobiFone Hosting": {
+        "Thông tin": [
+          "Dịch vụ Lưu trữ Website, Email",
+          "Cung cấp không gian lưu trữ Website và Email tên miền riêng trên hạ tầng điện toán đám mây MobiFone Cloud."
+        ],
+        "Chức năng chính": [
+          "Tăng tốc độ tải website: Tốc độ tải trang web dưới 3s",
+          "Đội ngũ chuyên nghiệp: Đội ngũ kỹ thuật chuyên môn",
+          "An toàn bảo mật: Nội dung sẽ được mã hóa đảm bảo an toàn và bảo mật",
+          "Cá nhân hóa: Cho phép khách hàng kiểm soát, điều chỉnh Website theo ý muốn",
+          "Hỗ trợ 24/7/365: Sẵn sàng hỗ trợ khách hàng 24/7/365",
+          "Khả năng cung cấp mở rộng: Mở rộng, sizing cấu hình theo yêu cầu",
+          "Đảm bảo tỷ lệ vào hộp thư: 95%",
+          "Hệ thống Email chuyên nghiệp: Dễ dàng trao đổi Email nội bộ, đối tác, khách hàng"
+        ],
+        "Đặc điểm, công nghệ nổi bật": ["Cloud computing"],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)"
+        ],
+        "Đối tượng khách hàng": [
+          "Khách hàng cá nhân, Doanh nghiệp vừa và nhỏ, Doanh nghiệp lớn và tập đoàn, Startups và công ty khởi nghiệp, Người làm nghề tự do (Freelancers) và nhà sáng tạo nội dung, Các công ty thương mại điện tử, Tổ chức giáo dục và đào tạo, Tổ chức chính phủ và tổ chức phi lợi nhuận, Ngành tài chính, ngân hàng và bảo hiểm, Ngành chăm sóc sức khỏe, Các công ty truyền thông và dịch vụ nội dung"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Cung cấp dịch vụ lưu trữ Website và Email",
+          "Tính cá nhân hóa, tự động custom",
+          "Dễ dàng mở rộng",
+          "Tính bảo mật cao",
+          "Hỗ trợ kỹ thuật, giám sát vận hành 24/7"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Công ty Cổ phần Dinh dưỡng Y học Luna Global",
+          "Trung tâm Xúc tiến Đầu tư và Phát triển Doanh nghiệp",
+          "Công ty Cổ phần Công nghệ Phần mềm Oceanlink1975"
+        ]
+      },
+      "MobiFone Kubernetes Engine": {
+        "Dịch vụ cung cấp nền tảng Kubernetes": "Dịch vụ MobiFone Kubernetes Engine cung cấp một nền tảng mạnh mẽ và linh hoạt cho phép người dùng triển khai và quản lý các ứng dụng dưới dạng container trên cơ sở hạ tầng đám mây một cách dễ dàng và hiệu quả sử dụng orchestrator là Kubernetes, hỗ trợ nhập nhật thêm, kiểm thử, triển khai và phân phối các ứng dụng trên nền tảng Kubernetes.",
+        "Chức năng chính": [
+          "Dễ dàng quản lý và sử dụng: Chủ động quản lý cụm thông qua giao diện dòng lệnh CLI và cung cấp các API theo API chuẩn của Kubernetes",
+          "Nhóm nodes: Tính năng cho phép nhóm các nodes theo yêu cầu dựa trên các thuộc tính cấu hình",
+          "Scaling up/down: Tăng/giảm số lượng Node theo yêu cầu",
+          "Hỗ trợ tích hợp các dịch vụ theo yêu cầu: Load balancer, persistent volume dynamic, object storage"
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Nền tảng Kubernetes",
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng KH": "Khách hàng cá nhân, Các công ty phát triển phần mềm, Các công ty công nghệ và khởi nghiệp, Các tổ chức tài chính và ngân hàng, Các công ty trong ngành game trực tuyến, Các công ty thương mại điện tử, Các công ty trong ngành chăm sóc sức khỏe, Các tổ chức giáo dục và đào tạo, Các doanh nghiệp lớn và đa quốc gia, Các công ty trong lĩnh vực IoT, Các nhà cung cấp dịch vụ đám mây và hạ tầng IT",
+        "Lợi ích, giá trị của SPDV": [
+          "Tiết kiệm chi phí: Tiết kiệm chi phí đầu tư hạ tầng, triển khai hệ thống",
+          "Nâng cao hiệu suất DevOps cho kiến trúc microservices: Kubernetes là một mắt xích quan trọng trong vận hành, giúp nâng cao hiệu suất, rút ngắn thời gian DevOps",
+          "Đảm bảo tính ổn định và tính khả dụng của ứng dụng: Cung cấp môi trường nhất quán, tự động quản lý, điều phối các container để đảm bảo tính sẵn sàng của ứng dụng được triển khai trên cụm"
+        ]
+      },
+      "MobiFone Load Balancer": {
+        "Thông tin": [
+          "Dịch vụ Cân bằng tải Balancer",
+          "Load Balancer (LB) là dịch vụ phân phối lưu lượng truy cập an toàn và nhanh chóng. Lưu lượng truy cập vào có thể được tự động phân phối tới nhiều máy chủ ảo (VPS) thông qua LB, cải thiện khả năng dịch vụ một cách có hệ thống và loại bỏ các điểm lỗi duy nhất."
+        ],
+        "Chức năng chính": [
+          "Cân bằng tải ở layer 4 và layer 7",
+          "Layer 4: Phân phối lưu lượng dựa trên thông tin ở mức kết nối, có thể thực hiện cân bằng tải dựa trên thông tin từ địa chỉ IP nguồn và đích, cũng như các thông tin từ các gói tin TCP/UDP như port đích",
+          "Layer 7: Phân phối lưu lượng dựa trên URL, phương thức HTTP (GET, POST, PUT, DELETE, vv.), hoặc các tiêu chuẩn khác trong header HTTP",
+          "Hỗ trợ nhiều mô hình triển khai",
+          "Cung cấp 2 cơ chế SINGLE Mode hoặc ACTIVE-STANDBY Mode",
+          "Hỗ trợ đa dạng thuật toán (Round-robin, least Connection, Source IP...)",
+          "Cung cấp sự linh hoạt trong việc cân bằng tải, phù hợp với nhiều loại ứng dụng và môi trường khác nhau"
+        ],
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng khách hàng": [
+          "Khách hàng cá nhân, Các doanh nghiệp có trang web hoặc ứng dụng trực tuyến, Công ty cung cấp dịch vụ SaaS, Công ty phát triển ứng dụng di động và web, Các công ty sử dụng cloud computing, Các tổ chức giáo dục và nghiên cứu, Các công ty trong ngành game trực tuyến, Các tổ chức chính phủ"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Linh hoạt",
+          "Cung cấp cân bằng tải cả layer 4 và layer 7 với các thuật toán round-robin, least Connection, Source IP giúp khách hàng có thể lựa chọn Load Balancer phù hợp với nhu cầu",
+          "Đảm bảo tính sẵn sàng",
+          "Tự động phân phối lưu lượng truy cập đến các máy chủ khác nhau, đảm bảo hệ thống không bị gián đoạn quá nhiều khách hàng truy cập cùng một lúc",
+          "Dự phòng",
+          "Cung cấp cơ chế dự phòng ACTIVE-STANDBY Mode để giảm thiểu thời gian gián đoạn hệ thống khi gặp sự cố",
+          "Dễ dàng sử dụng",
+          "Thao tác và quản lý dễ dàng thông qua qua dashboard quản trị"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Công Ty Cổ Phần Công Nghệ Thông Tin Quốc Tế Gimasys"
+        ]
+      },
+      "MobiFone Virtual Private Cloud": {
+        "Dịch vụ cung cấp": "Virtual Private Cloud (VPC) là một dịch vụ điện toán đám mây cung cấp môi trường ảo hóa riêng tư và an toàn trên hạ tầng đám mây công cộng. VPC cho phép người dùng tạo ra một mạng riêng ảo, kiểm soát truy cập tài nguyên một cách chặt chẽ.",
+        "Chức năng chính": [
+          "Tùy chỉnh và cấu hình theo thiết kế và nhu cầu của khách hàng, chủ động quản lý và vận hành, đảm bảo hiệu quả và linh hoạt trong triển khai các hệ thống",
+          "Có thể quản lý các tài nguyên: máy ảo, lưu trữ, network, IP, router, load balancer, firewall ở một nơi; giúp đơn giản hóa quá trình quản lý và giám sát"
+        ],
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng KH": "Khách hàng cá nhân, Các doanh nghiệp vừa và lớn, Các công ty công nghệ và khởi nghiệp, Các tổ chức chính phủ, Các tổ chức tài chính và ngân hàng, Các công ty trong ngành game trực tuyến, Các công ty trong ngành sản xuất & logistics, Các tổ chức giáo dục và nghiên cứu, Các tổ chức cung cấp dịch vụ chăm sóc sức khỏe, Doanh nghiệp đa quốc gia",
+        "Lợi ích, giá trị của SPDV": [
+          "Xây dựng hệ thống mạng riêng: Tạo và quản lý hệ thống mạng theo thiết kế mong muốn của tổ chức",
+          "Đơn giản và hiệu quả: Khởi tạo, quản lý các tài nguyên máy chủ ảo, lưu trữ, mạng linh hoạt, tự cấu hình, quản trị và giám sát hoạt động máy chủ do người dùng tối ưu hóa chi phí đầu tư",
+          "Dễ dàng quản lý: Cung cấp giao diện web để khách hàng dễ dàng thao tác và quản lý"
+        ]
+      },
+      "MobiFone Block Storage": {
+        "Thông tin": "Block Storage là phương pháp lưu trữ dữ liệu chia dữ liệu thành các khối (Block) riêng biệt, hoạt động giống như các ổ cứng riêng lẻ. Mỗi khối có thể được quản lý độc lập và được gắn vào máy chủ hoặc máy ảo ảo, cung cấp khả năng truy cập nhanh và hiệu suất cao.",
+        "Chức năng chính": [
+          "Dễ dàng mở rộng có khả năng mở rộng cao có thể phát triển khi các doanh nghiệp cần thêm dung lượng lưu trữ",
+          "Hiệu suất cao",
+          "Có thể linh động dịch vụ Block storage cho biết kì dịch vụ Cloud Server nào đang triển khai trên VPS",
+          "Block devices được hỗ trợ khá tốt, mỗi ngôn ngữ/lập trình có thể dễ dàng đọc và ghi tệp",
+          "Sử dụng như volumes cho VPS, có thể tháo lắp kết nối cùng một máy ảo khác nhau, có tính năng snapshot"
+        ],
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng KH": "Khách hàng cá nhân, Doanh nghiệp lớn, Công ty công nghệ và phát triển phần mềm, Doanh nghiệp vừa và nhỏ (SMEs), Các tổ chức nghiên cứu và giáo dục, Các nhà cung cấp dịch vụ đám mây",
+        "Lợi ích, giá trị của SPDV": "Giải pháp lưu trữ Cloud chuyên nghiệp dưới dạng Block cho các khách hàng đang sử dụng dịch vụ MobiFone Cloud"
+      },
+      "MobiFone Object Storage": {
+        "Thông tin": "Object Storage là phương pháp lưu trữ dữ liệu trong đó dữ liệu được lưu trữ dưới dạng đối tượng (Object). Mỗi đối tượng chứa dữ liệu, siêu dữ liệu (Metadata) và một định danh (Identifier) duy nhất để phân biệt với các đối tượng khác trong hệ thống. Thay vì sử dụng hệ thống phân cấp thư mục, lưu trữ đối tượng giúp dễ dàng mở rộng, phù hợp để lưu trữ dữ liệu không cấu trúc. Dịch vụ MobiFone Object Storage trở nên lý tưởng để lưu trữ các tệp như hình ảnh, video, bản sao lưu và tập dữ liệu lớn trên đám mây.",
+        "Chức năng chính": [
+          "Cho phép lưu trữ và quản lý dữ liệu dưới dạng khối trong các bucket",
+          "Có tính năng object versioning: cho phép người dùng quản lý các object theo phiên bản",
+          "Giao diện quản trị cho phép cấu hình quyền truy cập đến bucket và đến từng object; thông qua cơ chế authn: ACL (Access Control List), CORS (Cross Origin Resource Sharing)",
+          "Người dùng có thể thêm tagging cho từng object phục vụ nhu cầu tìm kiếm hoặc tạo các policy theo object có tagging tương ứng"
+        ],
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng khách hàng": "Khách hàng cá nhân, Các doanh nghiệp lưu trữ dữ liệu lớn, Công ty phát triển ứng dụng và game, Công ty trong lĩnh vực truyền thông và giải trí, Doanh nghiệp thương mại điện tử và bán lẻ, Các tổ chức nghiên cứu và giáo dục, Các công ty tài chính và ngân hàng",
+        "Lợi ích, giá trị của SPDV": "Giải pháp lưu trữ Cloud chuyên nghiệp dưới dạng Object cho các khách hàng sử dụng dịch vụ",
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Gimasys - Công ty Cổ phần Công nghệ Thông tin Quốc tế Gimasys"
+        ]
+      },
+      "MobiFone File Storage": {
+        "Thông tin": [
+          "Dịch vụ Lưu trữ đám mây dạng Tệp",
+          "File Storage là phương pháp lưu trữ dữ liệu trong đó dữ liệu được tổ chức theo cấu trúc phân cấp bằng cách sử dụng tệp tin (File) và thư mục (Folder), tương tự như cách dữ liệu được lưu trữ trên ổ cứng của máy tính. Mỗi tệp tin được lưu trữ dưới dạng một đơn vị duy nhất có tên và vị trí, giúp dễ dàng tổ chức và truy cập. File Storage lý tưởng để chia sẻ và quản lý tài liệu, tệp tin phương tiện (media) và dữ liệu có cấu trúc khác."
+        ],
+        "Chức năng chính": [
+          "Cho phép lưu trữ và sắp xếp dữ liệu một cách đơn giản và rõ ràng nhất qua file và folder trên ổ cứng máy tính hoặc thiết bị lưu trữ mạng (NAS)",
+          "Cho phép chia sẻ tệp trên mạng cục bộ (LAN) và có thể dễ dàng truy cập bởi bất kì máy tính nào có kết nối internet",
+          "Lưu trữ tệp trên thiết bị lưu trữ được kết nối mạng LAN riêng biệt mang lại một mức độ bảo mật dữ liệu cao trong trường hợp mạng máy tính gặp sự cố",
+          "Giao diện sử dụng đơn giản, dễ dàng"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)"
+        ],
+        "Đối tượng khách hàng": [
+          "Khách hàng cá nhân, Doanh nghiệp có nhu cầu chia sẻ và quản lý tệp nội bộ, Các công ty phát triển phần mềm và ứng dụng, Doanh nghiệp trong lĩnh vực thiết kế và đồ họa, Các tổ chức giáo dục và nghiên cứu, Doanh nghiệp và tổ chức trong lĩnh vực tài chính, Các công ty về truyền thông và giải trí"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Giải pháp lưu trữ dữ liệu cho khách hàng cá nhân, các tổ chức doanh nghiệp đơn giản và hiệu quả. Có thể truy cập từ bất cứ đâu một cách dễ dàng và tiện lợi, chỉ cần có internet"
+        ]
+      },
+      "MobiFone Cloud Managed Services": {
+        "Thông tin": "MobiFone Cloud Managed Services là dịch vụ hỗ trợ khách hàng thực hiện các hoạt động giám sát, quản trị nhằm giúp khách hàng nâng cao hiệu năng, tăng cường tính bảo mật và đảm bảo cho hệ thống hoạt động tốt nhất.",
+        "Chức năng chính": [
+          "Cung cấp các công cụ giám sát tài nguyên, hoạt động của hệ thống",
+          "Cung cấp các hệ thống cảnh báo đến khách hàng (email, SMS)",
+          "Hỗ trợ khách hàng trong việc vận hành hệ thống: backup, tư vấn tối ưu hệ thống, cài đặt database...",
+          "Hỗ trợ Migration khi có nhu cầu (tự động/có chuyên viên hỗ trợ)"
+        ],
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng khách hàng": "Doanh nghiệp vừa và nhỏ, Doanh nghiệp lớn và tập đoàn đa quốc gia, Các công ty công nghệ và khởi nghiệp, Ngành tài chính, ngân hàng, bảo hiểm, Tổ chức chính phủ và các cơ quan công quyền, Ngành chăm sóc sức khỏe, Ngành thương mại điện tử và bán lẻ, Ngành sản xuất và công nghiệp, Ngành giáo dục và cơ sở đào tạo, Các doanh nghiệp chuyển đổi số",
+        "Lợi ích, giá trị của SPDV": "Giải pháp quản trị, theo dõi hệ thống cho khách hàng"
+      },
+      "MobiCloud": {
+        "Thông tin": "Dịch vụ cung cấp lưu trữ Cloud cho khách hàng cá nhân với các gói cước đa dạng và thanh toán tiện lợi qua tài khoản viễn thông.",
+        "Chức năng chính": [
+          "Tự động đồng bộ: Tính năng giúp người dùng tự đồng bộ dữ liệu",
+          "Upload dữ liệu: Tính năng giúp người dùng tải lên dữ liệu cần lưu trữ",
+          "Quản lý dữ liệu: Tính năng giúp người dùng theo dõi và sắp xếp các thông tin lưu trữ",
+          "Chia sẻ dữ liệu: Tính năng giúp người dùng chia sẻ dữ liệu với người khác một cách dễ dàng"
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Cloud computing & Object Storage",
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng khách hàng": "Khách hàng cá nhân, Doanh nghiệp vừa và nhỏ (SMEs), Doanh nghiệp lớn, Các công ty công nghệ và phát triển ứng dụng, Ngành giáo dục và đào tạo, Các công ty truyền thông và giải trí, Ngành chăm sóc sức khỏe, Người dùng di động thường xuyên (Freelancers, Digital Nomads)",
+        "Lợi ích, giá trị của SPDV": [
+          "Miễn phí data 3G/4G truy cập / upload / download dữ liệu cho thuê bao của MobiFone",
+          "Thanh toán dễ dàng và tiện lợi khi đăng ký gói cước qua SMS",
+          "Đồng bộ các đám mây cho phép kết nối với các dịch vụ lưu trữ khác như: Google Drive, OneDrive...",
+          "Hỗ trợ đăng ký dịch vụ mobiCloud qua App mobiCloud và đồng bộ qua Website/App My MobiFone",
+          "Dễ dàng chia sẻ dữ liệu cho người khác qua MobiCloud, Facebook, Zalo,..."
+        ]
+      }
+    },
+    "Chương 2": {
+      "MobiFone Eoffice": {
+        "Thông tin": "MobiFone eOffice là giải pháp quản lý văn bản điện tử, giúp doanh nghiệp số hóa, lưu trữ, luân chuyển văn bản nội bộ theo quy trình linh hoạt đơn vị. Giải pháp MobiFone eOffice phù hợp với các doanh nghiệp sử dụng văn bản nhiều, như một hình thức giao việc, công báo thông tin, truyền tải thông tin chính thức.",
+        "Chức năng chính": [
+          "Số hóa trong công tác quản trị văn bản, quản lý hành chính và các công tác khác về văn phòng:",
+          "Xử lý công việc mọi lúc, mọi nơi (Web/App)",
+          "Ký số (sim PKI/USB Token/Remote Signing)"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "CMCS - Ủy ban Quản lý vốn nhà nước tại doanh nghiệp",
+          "Công ty Cổ phần Vincom Retail",
+          "Tổng công ty Thuốc lá Việt Nam (Vinataba)",
+          "Tổng công ty Thép Việt Nam - CTCP",
+          "Công ty Cổ phần Vinpearl",
+          "Công ty Thương mại Thuốc lá",
+          "Tổng công ty Truyền hình Cáp Việt Nam",
+          "Công ty Cổ phần Giải pháp Thanh toán Việt Nam (VNPAY)"
+        ]
+      },
+      "mobiFone Meet": {
+        "Thông tin": "MobiFone Meet là nền tảng họp trực tuyến cho phép tổ chức, doanh nghiệp, cá nhân thiết lập các cuộc họp trực tuyến dễ dàng và tiện lợi trên mọi thiết bị có kết nối internet. MobiFone Meet đã được Bộ TTTT công nhận là nền tảng số tiềm năng trở thành nền tảng số quốc gia về họp trực tuyến.",
+        "Chức năng chính": [
+          "MEET cung cấp các tính năng chính như họp video, chia sẻ màn hình, ghi ghú, đồng bộ hóa dữ liệu với tính bảo mật cao để tạo ra môi trường họp trực tuyến an toàn và hiệu quả"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": "Khách hàng tổ chức, doanh nghiệp có nhu cầu họp trực tuyến, học từ xa",
+        "Giải thưởng, chứng nhận": [
+          "Giải thưởng Sao Khuê",
+          "Top 10 giải pháp số xuất sắc Việt Nam"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Họp trực tuyến tốc độ cao, giúp khách hàng tiết kiệm thời gian, chi phí, tăng hiệu suất công việc",
+          "Kết nối cùng một lúc với nhiều người, ở nhiều địa điểm khác nhau",
+          "Có thể cài đặt ứng dụng trên các thiết bị điện tử như điện thoại, laptop, máy tính; giao diện thân thiện, dễ dàng sử dụng",
+          "Thông tin cuộc họp được bảo mật an toàn"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Ban Tuyên giáo Trung ương",
+          "Viện Kiểm sát Nhân dân Tối cao",
+          "Bộ Tài nguyên và Môi trường",
+          "Thanh tra Chính phủ",
+          "Tổng công ty Thuốc lá Việt Nam (Vinataba)",
+          "Công ty TNHH Xổ số Kiến thiết Gia Lai"
+        ]
+      },
+      "MobiFone eWork": {
+        "Thông tin": "MobiFone eWork là giải pháp quản lý công việc cho phép người dùng sử dụng các ứng dụng trên nền tảng web và di động để quản lý thông tin nhân viên, phân bổ công việc, quản lý dự án, xem lịch làm việc, giao tiếp với đồng nghiệp và khách hàng và đưa ra các báo cáo, đánh giá hiệu quả công việc.",
+        "Chức năng chính": [
+          "Lập kế hoạch công việc",
+          "Phân công công việc, đánh giá kết quả, theo dõi tiến độ xử lí",
+          "Quản lí công việc theo quy trình, trực linh động theo team, phòng ban"
+        ],
+        "Hình thức sử dụng dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng khách hàng": "Khách hàng doanh nghiệp có quy mô vừa và lớn",
+        "Lợi ích, giá trị của SPDV": [
+          "Giúp tăng năng suất và quản trị công việc hiệu quả, chuyên nghiệp",
+          "Lập kế hoạch công việc -> Phân công công việc",
+          "Theo dõi tiến độ xử lý -> Đánh giá kết quả"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Truyền hình Cáp Việt Nam VTVcab",
+          "Truyền hình SCTV"
+        ]
+      },
+      "MobiFone HRM": {
+        "Thông tin": "MobiFone HRM là giải pháp quản trị nhân sự tổng thể, giúp doanh nghiệp số hóa trong quá trình tuyển dụng - đào tạo - quản trị nhân sự - chấm công - tính lương.",
+        "Chức năng chính": [
+          "Quản lý quá trình tuyển dụng và cộng tác",
+          "Quản lý thông tin nhân sự (hồ sơ nhân sự)",
+          "Quản lý chấm công",
+          "Quản lý KPI, tính lương"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": "Khách hàng doanh nghiệp có quy mô vừa và lớn",
+        "Lợi ích, giá trị của SPDV": [
+          "Tăng hiệu suất trong quá trình quản lý nhân sự",
+          "Tránh sai sót trong quá trình chấm công, tính lương",
+          "Tiết kiệm thời gian và chi phí"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Tổng công ty Truyền hình Cáp Việt Nam (VTVcab)",
+          "Công ty TNHH Truyền hình Cáp Saigontourist (SCTV)",
+          "Báo Tiền Phong",
+          "Báo Thanh Tra",
+          "Tổng công ty Đường sắt Việt Nam (VNR)",
+          "Ngân hàng Thương mại Cổ phần Nam Á"
+        ]
+      },
+      "MobiFone eLearning": {
+        "Thông tin": "MobiFone eLearning là dịch vụ học trực tuyến cho phép học viên truy cập và học các khóa học trực tuyến ở nhiều lĩnh vực khác nhau như kỹ năng mềm, ngoại ngữ, kỹ năng chuyên môn, kinh doanh,... và thông qua các thiết bị kết nối Internet như máy tính, điện thoại di động, máy tính bảng.",
+        "Chức năng chính": [
+          "Quản lý học viên, quản lý khóa học",
+          "Đào tạo những kiến thức, sản phẩm, kĩ năng chuyên môn mới",
+          "Quản lý kì thi, quản lý chứng chỉ, ngân hàng câu hỏi",
+          "Kinh phí tối ưu, kênh trao đổi thông tin đi đôi nội bộ"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng khách hàng": "Khách hàng doanh nghiệp có quy mô vừa và lớn",
+        "Lợi ích, giá trị của SPDV": [
+          "Cung cấp các khóa học trực tuyến đa dạng về nhiều chủ đề khác nhau, phù hợp với nhiều đối tượng học viên",
+          "Học viên có thể học tập mọi lúc mọi nơi thông qua các thiết bị kết nối Internet giúp tối ưu thời gian và hiệu suất học tập",
+          "Nâng cao hiệu quả và chất lượng đào tạo trong các tổ chức, doanh nghiệp",
+          "Tối ưu chi phí cho doanh nghiệp so với các hình thức đào tạo truyền thống"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Báo Tiền Phong",
+          "Báo Thanh Tra",
+          "Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV)",
+          "Ngân hàng Thương mại Cổ phần Nam Á",
+          "Chi nhánh Tổng công ty Thuốc lá Việt Nam - Công ty TNHH MTV - Trung tâm đào tạo Vinataba"
+        ]
+      },
+      "MobiFone eCabinet": {
+        "Thông tin": "MobiFone eCabinet là một giải pháp cho việc tổ chức hội nghị trực tuyến, họp online và đồng nhất tiến trình điện tử, tiết kiệm tối đa. Tổ chức họp, hội nghị của cơ quan thông qua điện thoại di động, tivi, và màn trong phòng họp, tăng hiệu suất làm việc. Ngoài ra quy trình tạo và tham gia phiên họp nhanh chóng, tiết kiệm thời gian, chi phí, giúp đưa ra các quyết định kịp thời, chính xác.",
+        "Chức năng chính": [
+          "Giải pháp phòng họp không giấy tờ MobiFone eCabinet cho phép người dùng quản lý cuộc họp, điều hành và tham gia các cuộc họp trên môi trường điện tử từ xa và không phải chuẩn bị gì tổ và thời gian như trước đây",
+          "Các tính năng chính:",
+          "Đầy đủ các tính năng của một cuộc họp như (tạo cuộc họp/lịch họp, thông báo/quản lý cuộc họp, xin ý kiến biểu mẫu)",
+          "Đính kèm, quản lý, chia sẻ tài liệu họp trực tuyến tiện lợi",
+          "Dùng trên Web From, Mobile, Tablet"
+        ],
+        "Đối tượng khách hàng": "Khách hàng doanh nghiệp có quy mô vừa và lớn",
+        "Lợi ích, giá trị của SPDV": [
+          "Đáp ứng các buổi hội nghị quy mô lớn, số lượng thành viên đông, quy trình cuộc họp chuyên nghiệp",
+          "Quy trình tổ chức họp kín, có khả quản lý trước - trong - sau cuộc họp đơn giản, dễ dàng giúp nâng cao hiệu suất công việc",
+          "Các tính năng đặt lịch cuộc họp, đăng ký phát biểu, biểu quyết, tương tác đa chiều giúp tiết kiệm thời gian tổ chức, điều hành cuộc họp hiệu quả",
+          "Giảm thiểu các chi phí trong việc tạo và tham gia các cuộc họp online, chia sẻ thông tin tài liệu"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Tổng công ty Thuốc lá Việt Nam (Vinataba)",
+          "Công ty TNHH MTV Thuốc lá Thăng Long",
+          "Công ty TNHH MTV Thuốc lá Sài Gòn",
+          "Tổng công ty Đường sắt Việt Nam (VNR)",
+          "Báo Tiền Phong",
+          "Báo Thanh Tra"
+        ]
+      },
+      "mobifoneCA": {
+        "Thông tin": "Dịch vụ chứng thực chữ ký số công cộng MobiFone CA đáp ứng các quy định pháp luật hiện hành, được Bộ Thông tin Truyền thông cấp phép, giúp cá nhân, doanh nghiệp, tổ chức, nhân sự thực hiện ký số trên văn bản, tài liệu, thông điệp dữ liệu... trong môi trường giao dịch điện tử cho các thủ tục hành chính công như khai thuế, bảo hiểm xã hội, hải quan...",
+        "Chức năng chính": [
+          "Xác thực danh tính người ký và bảo vệ tính chính xác, hợp pháp của tài liệu được ký",
+          "Đảm bảo tính toàn vẹn dữ liệu",
+          "Chống giả mạo, bảo mật thông tin người dùng và nội dung tài liệu",
+          "Tích hợp vào nhiều dịch vụ hành chính công, giao dịch điện tử: Kê khai thuế điện tử, Hải quan điện tử, Hóa đơn điện tử MobiFone, BHXH điện tử và các giải pháp trong hệ sinh thái của MobiFone",
+          "Tiết kiệm thời gian và chi phí"
+        ],
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng KH": ["Khách hàng cá nhân", "Khách hàng doanh nghiệp"],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Ký số qua USB Token",
+          "Sim PKI",
+          "Remote Signing"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Được pháp luật Việt Nam công nhận",
+          "Xác thực danh tính chữ ký số giúp xác định rõ người ký là ai, đảm bảo tính xác thực và nguồn gốc của thông tin điện tử",
+          "Tăng tính toàn vẹn của dữ liệu: chữ ký số bảo vệ dữ liệu khỏi sự thay đổi trái phép bằng cách mã hóa và xác thực tính toàn vẹn của tài liệu",
+          "Chống giả mạo, bảo mật thông tin người dùng và nội dung tài liệu",
+          "Tiết kiệm thời gian và chi phí: giảm thiểu thủ tục giấy tờ, tăng hiệu quả trong quản lý tài liệu và giảm chi phí liên quan đến xác thực và xử lý pháp lý"
+        ]
+      },
+      "MobiFone Invoice": {
+        "Thông tin": "Giải pháp quản lý hóa đơn điện tử hàng đầu Việt Nam được Tổng cục Thuế cấp phép cung cấp dịch vụ, đáp ứng các quy định hiện hành hóa đơn điện tử từ Nghị định 123/NĐ-CP, Thông tư 78/TT-BTC... giúp doanh nghiệp, tổ chức, hộ cá nhân kinh doanh quản lý, đăng ký sử dụng hóa đơn, phát hành hóa đơn và truyền nhận, lưu trữ dữ liệu hóa đơn với Cơ quan Thuế an toàn, bảo mật, nhanh chóng.",
+        "Chức năng chính": [
+          "Hỗ trợ đa dạng việc tạo lập, phát hành và truyền nhận dữ liệu các loại hóa đơn, chứng từ với Cơ quan Thuế",
+          "Hóa đơn bán hàng, Hóa đơn GTGT giá trị gia tăng, Hóa đơn khởi tạo từ máy tính tiền, Phiếu xuất kho kiêm vận chuyển nội bộ, Chứng từ khấu trừ Thuế thu nhập cá nhân, Biên lai điện tử...",
+          "Thời gian phát hành và gửi hóa đơn nhanh chóng chỉ dưới 1 giây",
+          "Khả năng tích hợp mở rộng với các hệ thống doanh nghiệp đang sử dụng (Phần mềm bán hàng, Phần mềm kế toán, ERP...)",
+          "Hỗ trợ đa nền tảng: website, ứng dụng trên smartphone/máy tính bảng",
+          "Khả năng tùy biến mẫu hóa đơn, báo cáo, tính năng linh hoạt, phù hợp với đặc thù riêng của nhiều doanh nghiệp"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đặc điểm, công nghệ nổi bật": ["DOTNET", "KAFKA", "RABBITMQ", "REDIS"],
+        "Đối tượng khách hàng": "Tổ chức, cá nhân sử dụng hóa đơn điện tử khi mua bán hàng hóa, cung ứng dịch vụ",
+        "Lợi ích, giá trị của SPDV": [
+          "Tiết kiệm thời gian, chi phí in ấn, lưu trữ bảo quản hóa đơn cho doanh nghiệp",
+          "Hỗ trợ đa nền tảng, doanh nghiệp có thể dễ dàng phát hành hóa đơn mọi lúc mọi nơi",
+          "Linh hoạt và dễ dàng mở rộng để đáp ứng nhu cầu xuất hóa đơn của doanh nghiệp",
+          "Đa dạng mẫu hóa đơn, thiết kế linh động theo yêu cầu của từng doanh nghiệp",
+          "Giảm rủi ro về liên quan đến lĩnh vực hóa đơn",
+          "Cho phép bán mua, bên bán ký số hóa đơn mọi lúc mọi nơi",
+          "Nâng cao khả năng kiểm soát và giám sát hoạt động bán hàng, giảm thất thoát hóa đơn doanh nghiệp",
+          "Giúp doanh nghiệp tự bảo vệ mình, tăng độ an toàn, chính xác của thông tin, giảm thiểu rủi ro trong trường hợp bị giả mạo, mất hóa đơn. Bảo quản hóa đơn cho doanh nghiệp"
+        ],
+        "Giải thưởng, chứng nhận": ["Giải thưởng Sao Khuê 2022"],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Công ty Cổ phần Cấp nước Quảng Bình",
+          "Bệnh viện Nguyễn Tri Phương",
+          "Trung tâm Y tế Dệt may",
+          "Cảng vụ Đường thủy nội địa Thành phố Cần Thơ",
+          "Chi nhánh Công ty TNHH Thương mại Tổng hợp Xăng dầu Việt Trung tại Quảng Trị",
+          "Công ty Cổ phần Phát triển Điện Trà Vinh",
+          "Công ty Cổ phần Cấp nước Phú Hòa Tân",
+          "Công ty Cổ phần Nước sạch Hà Nam",
+          "Công ty Cổ phần Cấp nước Vĩnh Long",
+          "Bệnh viện Đa khoa tỉnh Quảng Trị",
+          "Công ty Cổ phần Cấp nước Bà Rịa - Vũng Tàu",
+          "Công ty Cổ phần Cấp nước Nam Bình",
+          "Công ty Cổ phần Nước sạch Quảng Ninh",
+          "Công ty TNHH Truyền hình Cáp Saigontourist (SCTV)",
+          "Công ty Trách nhiệm hữu hạn Một thành viên Cấp nước Tiền Giang"
+        ]
+      },
+      "MobiFone Accounting Solution (MAS)": {
+        "Thông tin": "Phần mềm kế toán MAS – MobiFone Accounting Solution là giải pháp giúp công tác quản lý tài chính – kế toán của doanh nghiệp, hộ cá nhân kinh doanh được triển khai dễ dàng, nhanh chóng, chính xác, đáp ứng đầy đủ theo các quy định pháp luật hiện hành của Bộ Tài chính.",
+        "Chức năng chính": [
+          "Cung cấp các tính năng kế toán đa dạng đáp ứng tích hợp các tiện ích giúp hạch toán chính xác, tiết kiệm thời gian tra cứu, tối giản thao tác nhập liệu",
+          "Hỗ trợ đối chiếu sổ sách kế toán, giảm thiểu sai sót trong quá trình sử dụng. Hỗ trợ đầy đủ cho doanh nghiệp, hộ kinh doanh như:",
+          "Kế toán tiền mặt và ngân hàng",
+          "Kế toán mua hàng, công nợ phải trả",
+          "Kế toán bán hàng, công nợ phải thu",
+          "Quản lý kho hàng",
+          "Công cụ dụng cụ, Tài sản cố định",
+          "Kế toán giá thành sản xuất, dự án, công trình xây lắp",
+          "Tích hợp hóa đơn điện tử, hỗ trợ xử lý hóa đơn đầu ra",
+          "Hỗ trợ kê khai, nộp báo cáo thuế"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": "Các doanh nghiệp, hộ/cá nhân kinh doanh và các cá nhân/đại lý thuế",
+        "Đặc điểm, công nghệ nổi bật": ["ABP Framework", "Webix framework"],
+        "Lợi ích, giá trị của SPDV": [
+          "Tiết kiệm thời gian: hỗ trợ nhanh các thao tác nhập liệu, gợi ý sẵn các bút toán, các nghiệp vụ giúp cho kế toán hạch toán chính xác, tiết kiệm thời gian tra cứu tài khoản, cách hạch toán, giảm bớt sai sót, hạn chế xử lý thủ công giúp, giúp tiết kiệm đến 50% thời gian, từ đó nâng cao hiệu quả công việc",
+          "Tổng hợp, xử lý và cung cấp báo cáo chính xác, kịp thời: tự động tổng hợp số liệu báo cáo căn cứ đầu vào kế toán cung cấp, hỗ trợ kiểm tra đối chiếu các sổ sách kế toán, báo cáo, đánh giá và xử lý bút toán thừa, thiếu, chưa chính xác",
+          "Đơn giản hóa công tác kế toán thuế: Hỗ trợ kiểm tra, đối chiếu sai sót đầu vào, đầu ra. Từ số liệu kế toán cung cấp tự động xử lý và tổng hợp các tờ khai thuế, quyết toán thuế, báo cáo tài chính… nhanh chóng, chính xác và nhất quán",
+          "Giảm mất mát, đảm bảo an toàn, bảo mật dữ liệu: MobiFone cung cấp môi trường bảo mật an toàn cho dữ liệu kế toán. Dữ liệu được lưu trữ trên các máy chủ đám mây tin cậy và được sao lưu định kỳ, giúp đảm bảo rằng dữ liệu của Doanh nghiệp luôn được bảo vệ và khả dụng",
+          "Giao diện người dùng thân thiện: Phần mềm kế toán có giao diện trựcbquan và dễ sử dụng, cho phép người dùng dễ dàng thao tác và tương tác với hệ thống"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "CÔNG TY TNHH DƯỢC PHẨM VÀ TRANG THIẾT BỊ Y TẾ BÌNH PHƯỚC",
+          "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ XÂY DỰNG VINA LAND",
+          "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ ULTRACOM",
+          "CÔNG TY CỔ PHẦN HUMOTIS",
+          "CÔNG TY TNHH SẢN XUẤT VÀ THƯƠNG MẠI NÔNG SẢN THÁI THUẬN - NINH THUẬN",
+          "CÔNG TY TNHH SẢN XUẤT XÂY DỰNG THƯƠNG MẠI DỊCH VỤ PVTECH",
+          "BAN QUẢN TRỊ TÒA D WESTBAY",
+          "CÔNG TY TNHH MỘT THÀNH VIÊN PHÚC SƠN",
+          "CÔNG TY TNHH NUÔI TRỒNG CHẾ BIẾN THỦY SẢN PHONG THÁI",
+          "CÔNG TY TNHH XĂNG DẦU LONG HƯNG LẤP VÒ"
+        ]
+      },
+      "MobiFone 1POS": {
+        "Thông tin": "Giải pháp quản lý bán hàng MobiFone 1POS thuộc bộ sản phẩm Smart Sale for SMEs (ERP), là công cụ hỗ trợ doanh nghiệp trong hoạt động kinh doanh nhanh. Tạo, xử lý và lưu trữ chi tiết về các giao dịch, sản phẩm, thông tin khách hàng, kê báo cáo kinh doanh tại cửa hàng cũng như ứng dụng trên chuỗi cửa hàng.",
+        "Chức năng chính": [
+          "Quản lý bán hàng thông minh, giúp cửa hàng quản lý đơn hàng, các chương trình bán hàng, chiết khấu, khuyến mãi",
+          "Quản lý sản phẩm: Hỗ trợ phân loại sản phẩm nhanh chóng, quản lý - bán hàng sản phẩm theo thuộc tính, theo mã vạch...",
+          "Quản lý chuỗi cửa hàng: Kiểm soát hàng hóa tồn kho",
+          "Quản lý thanh toán, xuất hóa đơn tự động qua hệ thống hóa đơn điện tử MobiFone Invoice",
+          "Quản lý khách hàng: Ghi nhận thông tin, lên hệ/cấu hình khách hàng, kênh thanh toán thiết kế, xây dựng chính sách chăm sóc phù hợp",
+          "Quản lý nhân viên - phân làm việc: Hỗ trợ phân quyền nhân viên, quản lý phân làm việc tại cửa hàng"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": "Giải pháp quản lý bán hàng MobiFone 1POS hướng tới các doanh nghiệp/hộ kinh doanh hoạt động trong các lĩnh vực: Bán lẻ (tạp hóa, siêu thị cửa hàng), trung tâm thương mại, F&B (nhà hàng, ăn uống), làm đẹp, giải trí... Trong đó, hai lĩnh vực kinh doanh chính giải pháp tập trung hướng tới là Bán lẻ và F&B",
+        "Lợi ích, giá trị của SPDV": [
+          "Quản lý bán hàng hiệu quả: Cung cấp các tính năng quản lý bán hàng hiệu quả như: Quản lý đơn hàng, quản lý bán hàng, khách hàng nhân viên, quản lý giá và hóa đơn",
+          "Nâng cao hiệu quả bán hàng: Giúp nhân viên bán hàng thực hiện đa tác vụ, tăng hiệu suất đồng thời giảm bớt nguồn nhân lực thuê ngoài",
+          "Báo cáo chi tiết định kỳ: Theo dõi doanh thu, lợi nhuận và các chi phí liên quan khác giữa các kênh bán, giúp doanh nghiệp đánh giá hiệu quả thường xuyên",
+          "Tăng độ chính xác, tin cậy: Doanh nghiệp có thể kiểm soát được các hoạt động bán hàng, hạn chế tối đa nhập nhầm tên sản phẩm, giá hay số lượng",
+          "Giao diện người dùng thân thiện: Giải pháp cung cấp giao diện người dùng đơn giản, trực quan và thân thiện với người dùng"
+        ],
+        "Khách hàng tiêu biểu sử dụng": [
+          "CÔNG TY TNHH NĂNG LƯỢNG XANH NGỌC PHÁT",
+          "CÔNG TY TNHH MỘT THÀNH VIÊN VÀNG BẠC BẢO MINH TV",
+          "CÔNG TY TNHH GAME TÀI PHÁT LỘC",
+          "CÔNG TY TNHH TRANG SỨC CALISTA",
+          "CÔNG TY CỔ PHẦN ĐẦU TƯ PITC",
+          "CÔNG TY TNHH BỐN MÙA GIA LAI"
+        ]
+      },
+      "MobiFone eContract": {
+        "Thông tin": "Giải pháp Hợp đồng điện tử hàng đầu Việt Nam, đáp ứng các quy định pháp luật hiện hành về giao dịch điện tử. Doanh nghiệp ký kết hợp đồng, văn bản, thỏa thuận hoàn toàn trên môi trường số, phá bỏ các rào cản về không gian, thời gian, tối ưu thời gian, chi phí cho việc quản lý, lưu trữ và giao kết hợp đồng.",
+        "Chức năng chính": [
+          "Thiết lập quy trình xử lý ký kết hợp đồng, mẫu thiết kế hợp đồng linh hoạt",
+          "Hỗ trợ đa dạng các phương thức ký số và ký điện tử (USB Token, Sim PKI, eKYC, ký ảnh + OTP...), của nhiều nhà cung cấp khác trên thị trường",
+          "Hỗ trợ đa nền tảng: website, ứng dụng trên điện thoại, laptop, máy tính để bàn, máy tính bảng",
+          "Hỗ trợ phân cấp, phân quyền trong tổ chức theo từng nhóm người dùng, nhóm chức năng... phù hợp với nhiều loại hình doanh nghiệp",
+          "Đa dạng các mẫu báo cáo hợp đồng phục vụ công tác quản trị: báo cáo tổng hợp, báo cáo chi tiết hợp đồng, lịch sử gửi SMS/Email",
+          "Khả năng tích hợp mở rộng với các hệ thống doanh nghiệp đang sử dụng (HRM, CRM, ERP...)",
+          "An toàn, bảo mật tuyệt đối"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": "Doanh nghiệp, hộ kinh doanh, cá nhân có nhu cầu sử dụng hợp đồng điện tử trong giao kết",
+        "Lợi ích, giá trị của SPDV": [
+          "Được pháp luật Việt Nam công nhận",
+          "Hợp đồng điện tử có tích xanh được chứng thực và đóng dấu của Bộ Công thương, đảm bảo tính pháp lý cao nhất",
+          "Tiết kiệm thời gian, chi phí, tối ưu hiệu suất công việc",
+          "Đảm bảo tính minh bạch, bảo mật thông tin cao",
+          "Đơn giản hóa quy trình, ký hợp đồng mọi lúc, mọi nơi, trên mọi phương tiện",
+          "Lưu trữ, tìm kiếm và tra cứu thông tin nhanh chóng, chính xác"
+        ],
+        "Giải thưởng, chứng nhận": ["Giải thưởng Sao Khuê 2023"],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Công ty Cổ phần Bệnh viện Đa khoa Quốc tế Vinmec",
+          "Công ty Trách nhiệm hữu hạn Mabuchi Motor Đà Nẵng",
+          "Công ty TNHH MTV Nước ngầm Sài Gòn",
+          "Công ty Bảo Minh Gia Định",
+          "Công ty Cổ phần DATVIET VAC Group Holdings",
+          "Công ty Cổ phần Giải pháp Thanh toán số",
+          "Công ty TNHH Thực phẩm & Nước giải khát Ý Tưởng Việt",
+          "Công ty Cổ phần Mioto Asia"
+        ]
+      },
+      "mBH": {
+        "Thông tin": "Phần mềm MobiFone BHXH (mBH) giải pháp giúp các doanh nghiệp, tổ chức thực hiện các thủ tục về bảo hiểm xã hội cho người lao động một cách trực tuyến thông qua Cổng I-VAN kết nối với Bảo hiểm xã hội Việt Nam.",
+        "Chức năng chính": [
+          "Kê khai BHXH trực tuyến",
+          "Cung cấp tính toán BHXH tự động dựa trên các thông tin thu nhập của người lao động",
+          "Đăng ký và nộp hồ sơ trực tuyến: người dùng có thể đăng ký và nộp hồ sơ BHXH trực tuyến thông qua phần mềm mBH, bao gồm: đăng ký tham gia BHXH trực tiếp trên phần mềm; hỗ trợ biểu mẫu, lập và nộp các hồ sơ kê khai BHXH theo đúng quy định cho người lao động; hỗ trợ ký điện tử bằng chữ ký số và nộp hồ sơ lên cơ quan BHXH qua mạng hoặc kết xuất hồ sơ giấy để nộp trực tiếp",
+          "Cho phép tra cứu kết quả xử lý hồ sơ từ cơ quan BHXH",
+          "Quản lý, lưu trữ, tìm kiếm các hồ sơ kê khai BHXH đã lập",
+          "Quản lý quá trình tham gia BHXH"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)"
+        ],
+        "Đối tượng KH": [
+          "Các tổ chức, doanh nghiệp sử dụng lao động Việt Nam",
+          "Trường học thực hiện BHYT cho học sinh, sinh viên",
+          "UBND xã/phường thực hiện thủ tục BHYT cho trẻ em dưới 6 tuổi, BHYT tự nguyện cho người dân"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Đơn giản hóa các thủ tục, giao dịch hồ sơ với cơ quan BHXH, tiết kiệm thời gian, nộp trực tuyến mà không mất công sức và chi phí đi lại",
+          "Dễ dàng sử dụng, quản lý: giao diện được thiết kế đơn giản, hỗ trợ người dùng thao tác một cách dễ dàng, thuận tiện trong việc quản lý, lưu trữ hồ sơ; theo dõi quá trình tham gia BHXH một cách chặt chẽ, tiện lợi hơn; tránh mất mát, thất lạc hồ sơ"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Công ty TNHH Công nghệ số Thanh Hóa",
+          "Công ty TNHH Thương mại Dịch vụ Kiến Khoa",
+          "Công ty TNHH Đầu tư Xây dựng và Thương mại Hoàng Hiếu",
+          "Doanh nghiệp tư nhân Khách sạn Hùng Thanh",
+          "Công ty TNHH Thuận Phát Hà Tĩnh",
+          "Công ty TNHH Vàng bạc Kim Văn Th"
+        ]
+      },
+      "MobiFone IMS": {
+        "Thông tin": "Là giải pháp tiện lợi và hiệu quả cho các Doanh nghiệp trong việc quản lý và lưu trữ hóa đơn đầu vào một cách chuyên nghiệp, thuận tiện và hiệu quả.",
+        "Chức năng chính": [
+          "Chức năng kết xuất báo cáo, bảng kê hóa đơn đầu vào cáo Tông cục Thuế, đồng bộ dữ liệu với phần mềm kế toán",
+          "Tự động đồng bộ hóa đơn từ Tổng cục Thuế, hoặc Email của nhân viên trong tổ chức để lưu trữ tập trung hóa đơn đầu vào của doanh nghiệp trên hệ thống",
+          "Quản lý mô hình phân cấp tổ chức và phân quyền theo từng vai trò chức năng",
+          "Phân tích, kiểm tra dữ liệu hóa đơn tự động, kiểm tra tính chính xác, hợp lệ của dữ liệu trên hóa đơn"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": "Tổ chức, cá nhân sử dụng hóa đơn điện tử khi mua bán hàng hóa, cung ứng dịch vụ có nhu cầu lưu trữ hóa đơn tập trung",
+        "Lợi ích, giá trị của SPDV": [
+          "Cho phép người dùng tải việc các hóa đơn đầu vào từ nhiều nhà cung cấp khác nhau và đồng bộ dữ liệu các hóa đơn đầu vào từ hệ thống MobiFone Invoice, lưu trữ và quản lý chứng từ mọi nơi mọi lúc giúp tiết kiệm thời gian và công sức trong việc quản lý hóa đơn",
+          "Cung cấp tính năng tự động nhận diện và nhập dữ liệu từ các hóa đơn đầu vào, giảm thiểu tình trạng nhập thông tin sai sót và giúp tiết kiệm thời gian cho người dùng",
+          "Ngoài ra, phần mềm còn cho phép người dùng tìm kiếm, lọc và sắp xếp các hóa đơn theo nhiều tiêu chí khác nhau để dễ dàng quản lý",
+          "Đảm bảo an toàn và bảo mật"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Công ty Cổ phần Tư vấn Đầu tư và Xây dựng 98",
+          "Công ty TNHH Thương mại Logistics Bình Phương",
+          "Công ty CP Nông nghiệp gạo hữu cơ TD Sóc Trăng",
+          "Công ty Cổ phần Xây dựng Giao thông và Thương mại 124",
+          "Công ty TNHH Đầu tư Năng lượng và Môi trường Biển Đông",
+          "Công ty TNHH Dược phẩm và Trang thiết bị y tế Bình Phước",
+          "Hợp tác xã Dịch vụ Xúc tiến đầu tư và giống nông nghiệp Phước Lộc Thọ",
+          "Công ty TNHH Một thành viên Thương mại Dịch vụ Viễn thông Phúc An",
+          "Công ty TNHH Humed Pharma",
+          "Công ty Cổ phần Cấp nước Phú Hòa Tân"
+        ]
+      },
+      "MobiFone Smart Travel": {
+        "Thông tin": "Du lịch thông minh MobiFone Smart Travel là nền tảng công nghệ số tiên tiến trong lĩnh vực du lịch giúp hỗ trợ du khách trong quá trình khám phá các địa danh một cách toàn trình, đáp ứng đầy đủ các tính năng và thông tin cho một hành trình du lịch trọn vẹn, chất lượng cao.",
+        "Chức năng chính": [
+          "App Smart Travel cung cấp đầy đủ các dịch vụ cho du khách như: đặt phòng khách sạn, đặt vé máy bay, tìm hiểu thông tin địa điểm du lịch, đặc sản địa phương, trải nghiệm thực tế ảo VR360/AR ngay trên ứng dụng, … Du khách còn có thể sử dụng Trợ lý ảo AI để tham khảo các hành trình gợi ý, điều hướng lịch trình theo nhu cầu cá nhân, đáp ứng trải nghiệm du lịch toàn trình của du khách từ trước, trong và sau chuyến đi"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Tích hợp công nghệ VR360/AR/AI ChatGPT ngay trên app mà hiện nay chưa ứng dụng nào có",
+        "Lợi ích, giá trị của SPDV": [
+          "Với du khách: Đáp ứng đầy đủ các tính năng cho hành trình du lịch trọn vẹn, chất lượng cao; trải nghiệm phong phú từ Tìm hiểu - Đặt ăn - Chơi - Booking, các xe khách/khác/Mạng xã hội... và được hỗ trợ tối đa từ Trợ lý du lịch thông minh",
+          "Với Doanh nghiệp du lịch: Là kênh kết nối giữa du khách và doanh nghiệp tại địa phương. Hỗ trợ quảng bá hình ảnh và thông tin dịch vụ của doanh nghiệp, được du khách biết đến dưới dạng lịch trình gợi ý",
+          "Với Cơ quan quản lý nhà nước: Giúp quản bá hình ảnh du lịch của địa phương, hiện đại hóa các kênh giới thiệu du khách, doanh nghiệp một cách thuận tiện. Đặc biệt hỗ trợ địa phương quản lý lưu trữ và các dữ liệu du lịch hiệu quả"
+        ],
+        "Giải thưởng, chứng nhận": [
+          "Sao Khuê năm 2022",
+          "Hạng mục Du lịch Quản lý nhà hàng, khách sạn do Hiệp hội Phần mềm và dịch vụ CNTT Việt Nam (VINASA) tổ chức"
+        ]
+      },
+      "Giải pháp Số hóa địa điểm du lịch AR/VR360": {
+        "Thông tin": "Tăng cường trải nghiệm du lịch của du khách thông qua công nghệ thực tế ảo VR và thực tế tăng cường AR.",
+        "Chức năng chính": [
+          "Ứng dụng VR360 giúp số hóa địa điểm bao gồm những tính năng chính:",
+          "Trưng tòa tham quan trong không gian thực được dựng lại 360°",
+          "Hệ thống thuyết minh tự động: trợ lý ảo thông minh",
+          "Cung cấp thông tin theo nhiều định dạng như hình ảnh 3D, 360°, video, audio của địa điểm/hiện vật",
+          "Hiển thị vị trí đại lý trên Google Map",
+          "Hiển thị menu khu vực tham quan",
+          "Hỗ trợ chuyển đổi nhiều ngôn ngữ",
+          "Công nghệ thực tế tăng cường AR(Augmented Reality) giúp kết hợp giữa thế giới thật với thông tin ảo, hỗ trợ các tính năng:",
+          "Khám phá các địa điểm bất xung quanh",
+          "Hướng dẫn chỉ đường",
+          "Bản đồ nội khu",
+          "Hiển thị nội dung thông tin hiện vật bằng hình ảnh, video, văn bản kí quyết"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Chuyển đổi văn bản thành giọng nói (Text to Speech)",
+          "MCAo",
+          "Hỗ trợ sử dụng đa ngôn ngữ, tích hợp..."
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": [
+          "Cơ quan quản lý nhà nước: UBND Tỉnh/Thành phố, Sở Thông tin và Truyền thông, Sở Văn hóa, Thể thao và Du lịch và các đơn vị được giao quản lý du lịch địa phương",
+          "Các tổ chức, doanh nghiệp trên toàn quốc"
+        ],
+        "Lợi ích, giá trị của SPDV": "Du khách được trải nghiệm du lịch ngay trên các thiết bị thông minh, dễ dàng hình dung không gian địa danh 360° trước khi đặt chân đến. Được tìm hiểu các thông tin du lịch, trải nghiệm văn hóa Việt Nam không bị giới hạn bởi khoảng cách địa lý, đặc biệt là với du khách nước ngoài.",
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Hải Phòng: Cụm di tích Đền Nghè- Đình An BiênTượng đài Nữ tướng Lê Chân; Đền Trạng Trần Tất Văn; Đền Gắm; Đền Chùa Mõ; Đền Trạng Trần Tất Văn; Chùa Cao Linh; Khu Tưởng Niệm Nhà Mạc; Khu di tích Trạng trình Nguyễn Bỉnh Khiêm; ...",
+          "Thanh Hóa: Pù Luông; Thác Mây; Bản Mạ; Khu di tích Lam Kinh; Danh thắng Kim Sơn; Thành nhà Hồ; Đền Nưa - Am Tiên; Đền Sòng Sơn; Đền Cô Chín; ...",
+          "Quảng Bình: Bảo tàng Quảng Bình; Động Phong Nha; Sơn Đoòng; Sông Chày - Hang Tối; Châu Hóa - Quảng Bình",
+          "Huế: Đại Nội Huế; Lăng Khải Định; Lăng Tự Đức; Lăng Minh Mạng; Chùa Thiên Mụ; Chùa Từ Hiếu; Nhà thờ Phủ Cam; ..."
+        ]
+      },
+      "Cổng thông tin du lịch": {
+        "Thông tin": "Cổng thông tin trực tuyến giúp giới thiệu thông quan về địa phương, quảng bá các địa danh du lịch, điểm đến nổi bật, các hoạt động sự kiện, lễ hội ... tại địa phương tới tất cả du khách.",
+        "Chức năng chính": [
+          "Cổng thông tin trực tuyến giúp đăng tải các thông tin du lịch mà địa phương có nhu cầu quảng bá: địa danh du lịch, nhà hàng, khách sạn, ẩm thực, ... cập nhật các thông tin về sự kiện/lễ hội/... chính thức của địa phương",
+          "Tích hợp bản đồ số du lịch",
+          "Sẵn sàng tích hợp các tính năng đặt phòng, đặt vé cho doanh nghiệp tại địa phương",
+          "Quản trị cơ sở dữ liệu du lịch tại địa phương",
+          "Dễ dàng tuỳ biến tính năng và giao diện theo yêu cầu của từng địa phương"
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Hệ thống quản trị CSDL CMS, tích hợp bản đồ số, đặt phòng, đặt vé",
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": [
+          "Các Sở Ban Ngành chuyên trách tại địa phương trên toàn quốc",
+          "Các địa danh, cơ quan, tổ chức du lịch có nhu cầu quảng bá trực tuyến rộng rãi"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Cổng thông tin du lịch là nơi quảng bá hình ảnh, văn hoá, thông tin chính thống của địa phương/tổ chức tới du khách",
+          "Đối với các địa phương, thông qua hệ thống quản trị cơ sở dữ liệu của Cổng thông tin du lịch, người quản lí có thể nắm rõ được tình hình khách hàng truy cập/ quan tâm đến hoạt động du lịch tại địa phương, quản lý được số lượng/ tiêu dùng của du khách tại địa phương, thị hiếu của khách du lịch; số lượng tour du lịch đã được đặt; những mô hình tour du lịch, kế hoạch du lịch ưa thích của khách hàng… Từ đó có thể đẩy mạnh, khai thác và có kế hoạch phát triển ngành du lịch của địa phương cũng như các hoạt động quản trị khác"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Cổng thông tin Du lịch Quảng Bình",
+          "Cổng thông tin du lịch Nam Định"
+        ]
+      },
+      "Triển lãm ảo/Gian hàng ảo": {
+        "Thông tin": "Triển lãm ảo dựa trên công nghệ nền tảng VR360 giúp mô phỏng không gian ảo 3 chiều, giới thiệu trực tuyến thông tin một cách sống động.",
+        "Chức năng chính": [
+          "Tương tác không gian 3D được dựng 360°",
+          "Linh hoạt tuỳ biến không gian thiết kế theo yêu cầu",
+          "Sử dụng Menu linh vực/khám phá theo các chủ đề",
+          "Hiển thị các điểm ảnh, hình ảnh nổi bật có trên triển lãm",
+          "Trợ lý ảo AI giúp thuyết minh nội dung & giới thiệu về lịch sử, hiện vật sống động",
+          "Hiển thị thông tin chi tiết từng hiện vật, hình ảnh tich cực và ..."
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Công nghệ nền tảng VR360 (ứng dụng thiết kế 3D chuyên dụng, trợ lý AI, công nghệ Text to Speech)",
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": [
+          "Các Bảo tàng, phòng trưng bày trên toàn quốc",
+          "Doanh nghiệp truyền thông quảng bá sản phẩm, tăng doanh số bán hàng"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Các phòng triển lãm ảo giúp trưng bày đầy đủ các hiện vật/ hình ảnh theo chủ đề và thời kỳ lịch sử mà không chiếm diện tích vật lý",
+          "Tích hợp các lớp thông tin giúp du khách tìm hiểu từng hiện vật được mô tả đầy đủ, chi tiết qua không gian mạng",
+          "Tùy biến không gian triển lãm 3D theo đặc trưng văn hóa và nhu cầu",
+          "Dễ dàng quảng bá hình ảnh, truyền thông về bảo tàng/ phòng truyền thông của đơn vị đến công chúng"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Triển lãm Bảo tàng tỉng Quảng Bình",
+          "Không gian sản phẩm tiêu biểu của tỉnh miền Long An",
+          "Đại hội đại biểu lần thứ VIII tỉnh Bình Dương"
+        ]
+      },
+      "Sổ tay Đảng viên": {
+        "Thông tin": "Sổ tay Đảng viên điện tử là giải pháp công nghệ đổi mới sáng tạo trong chiến lược chuyển đổi số công tác Đảng giúp các Đảng viên thuận tiện trong việc học tập, tra cứu thông tin chính thống về Đảng, tương tác với tổ chức Đảng trên máy tính và trên ứng dụng điện thoại thông minh.",
+        "Chức năng chính": [
+          "TÍNH NĂNG NGHIỆP VỤ ĐẢNG:",
+          "Sinh hoạt Đảng",
+          "Tin tức",
+          "Tư liệu",
+          "Thông tin",
+          "Học tập và thi trực tuyến",
+          "TÍNH NĂNG VỀ TIỆN ÍCH CHO ĐẢNG VIÊN:",
+          "Trợ lý ảo",
+          "Báo tàng số",
+          "Nhiệm vụ",
+          "Thông báo nội bộ"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Tích hợp các công nghệ ưu việt của TCT MBF:",
+          "Text to speech",
+          "AI ChatBot",
+          "VR360"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê trên hạ tầng của MobiFone (On-cloud)",
+          "Bán giải pháp theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)",
+          "Xây dựng và phát triển sản phẩm theo yêu cầu riêng của khách hàng"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Góp phần thực hiện mục tiêu CĐS trong công tác xây dựng Đảng tại đơn vị",
+          "Là kênh thông tin cập nhật về hoạt động đường lối của Đảng, phổ biến các Nghị quyết, văn kiện của Đảng",
+          "Giúp các đảng viên thuận tiện trong việc học tập, tra cứu, tương tác với tổ chức đảng trên máy tính và trên ứng dụng điện thoại thông minh"
+        ],
+        "Giải thưởng, chứng nhận": ["Giải thưởng Sao Khuê 2024"],
+        "Đối tượng KH": [
+          "Các đơn vị thuộc khối DNTW",
+          "Các đơn vị/Huyện Ủy địa phương"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Đảng ủy Khối Doanh nghiệp Trung ương",
+          "Tổng công ty Đầu tư Phát triển Nhà & Đô thị",
+          "Tập đoàn Xăng dầu Việt Nam",
+          "Tổng công ty Hàng hải Việt Nam",
+          "Tổng công ty Thép Việt Nam",
+          "Tổng công ty Bưu điện Việt Nam"
+        ]
+      },
+      "Chuyển đổi số Báo chí (Tòa soạn hội tụ)": {
+        "Thông tin": "Tòa soạn hội tụ là mô hình kết hợp hoạt động của nhiều loại hình báo chí (báo in, báo mạng, phát thanh, truyền hình, ...). Trong tòa soạn mô hình này hệ thống phần mềm tòa soạn hội tụ để quản lý điều hành mọi hoạt động của tòa soạn.",
+        "Chức năng chính": [
+          "Quản lý trình tự sản xuất nội dung",
+          "Quản lý nội dung xuất bản theo hình thức hoặc theo hành động hoặc theo đối tượng hoặc theo phân loại",
+          "Quản lý quảng cáo",
+          "Quản lý nhuận bút",
+          "Quản lý tài nguyên",
+          "Quản lý thu thập thông tin",
+          "Thống kê và báo cáo",
+          "Quản lý phân quyền"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "May đo theo nhu cầu khách hàng",
+          "Cho thuê trên hạ tầng của MobiFone (On-cloud)",
+          "Bán giải pháp theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": "Các cơ quan/tổ chức/doanh nghiệp hoạt động lĩnh vực truyền thông, báo chí"
+      },
+      "Phát thanh số (Truyền thanh thông minh)": {
+        "Thông tin": "Truyền thanh thông minh là giải pháp giúp giới thiệu thông tin chính quyền, quyền và nhân dân, cung cấp thông tin hữu ích về lịch, chính sách, thiên tai, hóa hoạn, tình huống khẩn cấp,... Giải pháp dựa trên nền tảng công nghệ 4.0, triển khai trên hệ thống điện đài AM, FM đảm bảo tính thẩm mỹ, khắc phục hoàn toàn những nhược điểm của giải pháp AM/FM truyền thống.",
+        "Đặc điểm, công nghệ nổi bật": [
+          "Công nghệ AI Text-to-Speech",
+          "Đa phương thức kết nối 3G/4G, Wifi",
+          "Tích hợp bộ thu FM có dải tần 76MHz-108MHz (optional: 50 – 115 MHz)",
+          "Hỗ trợ kết nối bằng Dual SIM: eSIM và Nano SIM"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Xây dựng và phát triển sản phẩm theo yêu cầu riêng của khách hàng",
+          "Cho thuê trên hạ tầng của MobiFone (On-cloud)",
+          "Bán giải pháp theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng khách hàng": "Khách hàng chính phủ (Sở TTTT, Trung tâm VH - TT&TT), doanh nghiệp (Bệnh viện, trường học,...)",
+        "Lợi ích, giá trị của SPDV": [
+          "Sản phẩm TTTM có khả năng nhận thông tin từ một website biên tập thông tin tập trung từ đó xây dựng một giải pháp thông tin nguồn thông minh",
+          "Đáp ứng Thông tư số 39/2020/TT-BTTTT ngày 24/11/2020 của Bộ TTTT quy định/Quản lý truyền thanh cấp xã ứng dụng CNTT-VT"
+        ],
+        "Giải thưởng, chứng nhận": [
+          "Giải thưởng Stevie Awards",
+          "Giải thưởng Sao Khuê",
+          "Giải thưởng Chuyển đổi số Việt Nam Vietnam Digital Awards (VDA)"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "61/63 tỉnh, thành phố (Vĩnh Long, Bình Phước, Đà Nẵng, Cần Thơ, Phú Thọ, Hà Nội,...)"
+        ]
+      },
+      "Giải pháp Quản lí thông tin nguồn thông minh": {
+        "Thông tin": "Giải pháp quản lý thông tin nguồn thông minh là hệ thống quản lý thông tin nguồn đa cấp tập trung và cung cấp thông tin cho đài truyền thanh ứng dụng công nghệ thông tin phục vụ quản lý hệ thống truyền thanh thông minh của mỗi tỉnh, thành phố.",
+        "Chức năng chính": [
+          "Quản lý để tổ chức hoạt động TTCS ở cả 3 cấp tỉnh, huyện và xã",
+          "Quản lý, chia sẻ, biên tập, đăng tải, phát thanh thông tin từ nguồn nội dung đến hệ thống đích",
+          "Quản lý, theo dõi, giám sát trạng thái hoạt động của các cụm loa truyền thanh, bảng tin điện tử công cộng và tình hình hoạt động TTCS trên địa bàn",
+          "Đăng tải trên bảng tin điện tử công cộng và các phương tiện TTCS khác trên địa bàn"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Công nghệ AI Tech-to-Speech",
+          "Kết nối được các thiết bị bảng điện tử, các thiết bị TTTM của hãng khác và hệ thống nguồn Trung ương thông qua trục LGSP/NGSP"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Xây dựng và phát triển sản phẩm theo yêu cầu riêng của khách hàng",
+          "Cho thuê trên hạ tầng của MobiFone (On-cloud)",
+          "Bán giải pháp theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng khách hàng": "Khách hàng chính phủ (Sở TTTT các tỉnh/thành phố)",
+        "Lợi ích, giá trị của SPDV": [
+          "Thông tin hai chiều để người dân tiếp nhận thông tin thiết yếu và phản ánh thông tin về hiệu quả thực thi chính sách, pháp luật ở cơ sở đến các cơ quan nhà nước thông qua hệ thống thông tin cơ sở theo hướng đồng bộ, kịp thời, chính xác và hiệu quả",
+          "Nâng cao chất lượng nội dung thông tin, đổi mới phương thức cung cấp thông tin thiết yếu"
+        ],
+        "Giải thưởng, chứng nhận": [
+          "Giải thưởng Sao Khuê",
+          "Đáp ứng các tiêu chuẩn tại Công văn 2455/BTTTT - TTCS của Bộ TTTT"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "9/19 tỉnh, thành phố (Hà Nội, Bình Phước, Huế, Vĩnh Long...)",
+          "Hơn 30 tỉnh/thành phố đang thử nghiệm sản phẩm"
+        ]
+      },
+      "MobiFone RPA": {
+        "Thông tin": [
+          "Giải pháp Tự động hóa tác vụ RPA",
+          "Ứng dụng công nghệ Open RPA trong việc phát triển các bot nghiệp vụ, xử lý nhanh chóng nhiều nghiệp vụ thao tác bằng tay."
+        ],
+        "Chức năng chính": [
+          "Tự động hóa các nghiệp vụ văn phòng, hành chính giúp tối ưu chi phí vận hành trong doanh nghiệp",
+          "Quản lý và giám sát các bot nghiệp vụ"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ/Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)"
+        ],
+        "Đối tượng khách hàng": [
+          "Khách hàng doanh nghiệp",
+          "Khách hàng cơ quan, tổ chức"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Ứng dụng công nghệ Open RPA trong việc phát triển các bot nghiệp vụ, xử lý nhanh chóng nhiều nghiệp vụ thao tác bằng tay như: word, excel, website, outlook..."
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Tự động hóa các quy trình lặp đi lặp lại giúp tăng hiệu suất làm việc của nhân viên",
+          "Tối ưu hóa quy trình, giảm nhu cầu sử dụng nguồn lực thủ công",
+          "Giảm thiểu sai sót, tăng độ chính xác và nhất quán của công việc",
+          "Đẩy nhanh thời gian xử lý và nâng cao chất lượng dịch vụ"
+        ]
+      },
+      "Trợ lý ảo AI": {
+        "Thông tin": "Ứng dụng công nghệ ChatGPT để thực hiện đọc hiểu văn bản, tìm kiếm truy xuất thông tin.",
+        "Chức năng chính": [
+          "Đọc hiểu nội dung yêu cầu",
+          "Tìm kiếm và truy xuất thông tin thông minh"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Ứng dụng công nghệ ChatGPT để thực hiện đọc hiểu văn bản, tìm kiếm truy xuất thông tin",
+        "Đối tượng KH": [
+          "Khách hàng cá nhân",
+          "Khách hàng cơ quan, tổ chức",
+          "Khách hàng doanh nghiệp"
+        ],
+        "Lợi ích, giá trị của SPDV": "Nhanh chóng tìm kiếm được thông tin không cần thông qua con người"
+      },
+      "Bộ giải pháp Giám sát thông minh": {
+        "Thông tin": "AI phân tích dữ liệu trong thời gian thực, giúp phát hiện nhanh chóng và chính xác các hành vi bất thường. Tự động hóa giám sát, hoạt động liên tục 24/7 mà không cần sự can thiệp của con người, giảm thiểu sai sót và tiết kiệm nhân lực.",
+        "Chức năng chính": [
+          "Bộ giải pháp giám sát thông minh, ứng dụng công nghệ AI tiên tiến giúp giải quyết các bài toán như: giám sát thái độ làm việc của nhân viên trong phòng giao dịch, quản lý và tuân thủ an toàn đê, đảm bảo an ninh trong tòa nhà, theo dõi tình hình vận hành trong khu công nghiệp..."
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Công nghệ nhận diện khuôn mặt tiên tiến giúp xác định và theo dõi đối tượng trong thời gian thực",
+          "Công nghệ AI phân tích dữ liệu hình ảnh, video giúp phát hiện hành vi bất thường và cảnh báo sớm các nguy cơ tiềm ẩn",
+          "Tích hợp khả năng xử lý và phân tích khối lượng dữ liệu lớn (Big Data), giúp cải thiện độ chính xác và hiệu quả của hệ thống giám sát",
+          "Sử dụng mô hình học sâu (Deep Learning) để tăng cường khả năng nhận diện và phân tích, giúp hệ thống tự động cải thiện theo thời gian"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": [
+          "Phòng giao dịch",
+          "Bãi đỗ xe",
+          "Tòa nhà/chung cư",
+          "Khu công nghiệp/khu mỏ"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "AI phân tích dữ liệu trong thời gian thực, giúp phát hiện nhanh chóng và chính xác các hành vi bất thường",
+          "Tự động hóa giám sát, hoạt động liên tục 24/7 mà không cần sự can thiệp của con người, giảm thiểu sai sót và tiết kiệm nhân lực",
+          "Nâng cao an ninh an toàn khu vực, phát hiện kịp thời các nguy cơ an ninh và đưa ra cảnh báo sớm",
+          "Tối ưu hóa chi phí Vận hành và bảo trì nhờ khả năng tự động hóa và hiệu quả cao"
+        ]
+      },
+      "MobiFone STT": {
+        "Thông tin": [
+          "Giải pháp Chuyển đổi giọng nói thành văn bản Speech-to-Text",
+          "Ứng dụng công nghệ AI trong việc chuyển đổi giọng nói thành văn bản."
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Ứng dụng công nghệ AI trong việc chuyển đổi giọng nói thành văn bản với độ chính xác > 90%. Văn bản đầu ra được chuẩn hóa viết hoa, chữ số, dấu câu giúp dễ dàng đáp ứng nhiều nhu cầu khác nhau",
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng khách hàng": [
+          "Khách hàng cá nhân",
+          "Khách hàng doanh nghiệp",
+          "Khách hàng cơ quan, tổ chức"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Giúp tăng hiệu suất làm việc bằng cách chuyển đổi nhanh chóng và chính xác, dễ dàng truy cập và sử dụng, hỗ trợ lưu trữ và tìm kiếm thông tin hiệu quả hơn, tiết kiệm thời gian và công sức, nâng cao năng suất và sự tiện lợi"
+        ]
+      },
+      "MobiFone TTS": {
+        "Thông tin": [
+          "Giải pháp Chuyển đổi văn bản thành giọng nói Text-to-Speech",
+          "Công nghệ cho phép chuyển đổi các đoạn văn bản viết thành âm thanh."
+        ],
+        "Chức năng chính": "Chuyển đổi văn bản thành giọng nói",
+        "Đặc điểm, công nghệ nổi bật": "Ứng dụng công nghệ AI trong việc chuyển đổi văn bản thành giọng nói",
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng khách hàng": [
+          "Khách hàng cá nhân",
+          "Khách hàng doanh nghiệp",
+          "Khách hàng cơ quan, tổ chức"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Giúp sản xuất nội dung, sản xuất các bản tin, báo nói, sách nói,..."
+        ]
+      },
+      "MobiFone eKYC": {
+        "Thông tin": [
+          "Giải pháp Định danh khách hàng MobiFone eKYC",
+          "Giải pháp MobiFone eKYC giúp trích xuất thông tin, OCR giấy tờ tuỳ thân của khách hàng để giảm thiểu quá trình nhập liệu. Bên cạnh đó còn có tính năng xác thực cũng như chống giả mạo khuôn mặt để hỗ trợ việc đăng ký tài khoản của khách hàng có thể thực hiện tại nhà không cần trực tiếp đến địa điểm giao dịch. Sản phẩm được ứng dụng công nghệ trí tuệ nhân tạo với độ chính xác cao."
+        ],
+        "Chức năng chính": "Xác thực danh tính khách hàng",
+        "Đặc điểm, công nghệ nổi bật": "Giải pháp ứng dụng công nghệ trí tuệ nhân tạo Deep learning trong việc liên tục cải thiện và nâng cao chất lượng trong việc nhận diện. Đây là một trong những điểm nổi bật hơn so với các giải pháp cũ",
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng khách hàng": [
+          "Ngân hàng",
+          "Công ty bảo hiểm",
+          "Tổ chức tài chính",
+          "Fintech"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Giảm thiểu quy trình thủ công, định danh khách hàng nhanh chóng và hiệu quả hơn",
+          "Tự động hóa và số hóa quy trình xác thực, giảm thiểu sai sót",
+          "Bảo mật thông tin cá nhân của khách hàng bằng các biện pháp an ninh tiên tiến",
+          "Tuân thủ quy định pháp luật về quản xác thực, giảm thiểu sai sót lý thông tin và xác thực danh tính"
+        ],
+        "Giải thưởng, chứng nhận": "Giải thưởng Sao Khuê 2021",
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "CÔNG TY TNHH DỊCH VỤ SỐ DIGILIFE VIỆT NAM",
+          "CÔNG TY CỔ PHẦN CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG GREEN EARTH VIỆT NAM",
+          "CÔNG TY CỔ PHẦN CÔNG NGHỆ PHẦN MỀM VÀ NỘI DUNG SỐ OSP"
+        ]
+      },
+      "MobiFone SmartHome": {
+        "Thông tin": [
+          "Giải pháp Nhà thông minh MobiFone",
+          "MobiFone SmartHome (Giải pháp nhà thông minh) do MobiFone phát triển và cung cấp gồm các thiết bị thông minh được quản lý bởi ứng dụng nền tảng mobiHome+. Dịch vụ MobiFone SmartHome sử dụng nền tảng IoT Platform để quản lý, giám sát đồng bộ các thiết bị trên các ứng dụng."
+        ],
+        "Chức năng chính": [
+          "Quản lý và giám sát thiết bị từ xa theo thời gian thực",
+          "Tạo kịch bản (bật, tắt, hẹn giờ, cảnh báo...)",
+          "Điều chỉnh trạng thái theo hành vi (chuyển động, mở cửa, đóng cửa...)"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Công nghệ Microservices",
+          "Công nghệ Cloud",
+          "Công nghệ kết nối (Wifi, Bluethooth, Zigbee)"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)"
+        ],
+        "Đối tượng khách hàng": [
+          "Khách hàng Cá nhân",
+          "Khách hàng Doanh nghiệp",
+          "Hộ gia đình"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Trải nghiệm mới, nâng cao chất lượng cuộc sống",
+          "Tiết kiệm chi phí",
+          "Tăng cường an ninh, an toàn",
+          "Tiết kiệm thời gian bảo mật",
+          "Tiết kiệm năng lượng"
+        ]
+      },
+      "MobiFone Home Camera": {
+        "Thông tin": [
+          "Giải pháp Camera gia đình MobiFone",
+          "Giám sát mọi lúc mọi nơi cùng Camera AI."
+        ],
+        "Chức năng chính": [
+          "Ghi hình, xem video trực tiếp với độ phân giải Full HD",
+          "Khoanh vùng cảnh báo thông minh",
+          "Hỗ trợ đàm thoại hai chiều",
+          "Điều hướng quan sát thông minh",
+          "Phát hiện người, bám theo chuyển động",
+          "Hỗ trợ thêm công nghệ lưu trữ dữ liệu qua Cloud"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Hỗ trợ lưu trữ đa dụng Thẻ nhớ/ Cloud",
+          "Lưu trữ dữ liệu ngay cả khi mất kết nối internet (Khi thiết bị có lắp thẻ nhớ)",
+          "Hỗ trợ chức năng đàm thoại 2 chiều",
+          "Hỗ trợ chuẩn kháng bụi nước đạt chuẩn IP67",
+          "Hỗ trợ ghi hình có màu vào ban đêm"
+        ],
+        "Hình thức cung cấp dịch vụ": "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+        "Đối tượng khách hàng": [
+          "Khách hàng Cá nhân",
+          "Khách hàng Doanh nghiệp"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Giám sát an ninh 24/7",
+          "Không lo hỏng thẻ nhớ hoặc bị đánh cắp dữ liệu khi khách hàng sử dụng dịch vụ lưu trữ dữ liệu qua Cloud",
+          "Cảnh báo theo thời gian thực",
+          "Tiết kiệm chi phí và nhân lực",
+          "Quản lý dễ dàng từ xa",
+          "Lưu trữ và xem lại dữ liệu một cách tiện lợi",
+          "Tăng cường an ninh, an toàn bảo mật",
+          "Nâng cao chất lượng cuộc sống"
+        ]
+      },
+      "MobiFone QR sound": {
+        "Thông tin": [
+          "Giải pháp Loa Thần tài MobiFone",
+          "Loa Thần tài MobiFone là thiết bị phát âm thanh bằng giọng nói, thông báo kết quả thanh toán qua mã QR. Khi giao dịch thành công, loa sẽ tự động đọc chính xác số tiền khách hàng đã chuyển khoản, giúp người bán nhận tiền nhanh chóng và an toàn."
+        ],
+        "Chức năng chính": [
+          "Theo dõi lịch sử nhận tiền trên ứng dụng",
+          "Phát thông báo mỗi lần giao dịch thành công"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Công nghệ AI Text-to-speech",
+          "Đa phương thức kết nối 3G/4G, Wifi"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)"
+        ],
+        "Đối tượng khách hàng": [
+          "Khách hàng Cá nhân",
+          "Hộ kinh doanh",
+          "Khách hàng Doanh nghiệp"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Nâng cao trải nghiệm mua sắm: Khách hàng chỉ cần thanh toán và sử dụng dịch vụ, không cần chờ đợi xác nhận hay yêu cầu kiểm tra phiền hà",
+          "Tiết kiệm thời gian, công sức để đối soát, kiểm tra giao dịch và nhập liệu, cập nhật giao dịch thủ công",
+          "Phòng chống gian lận, giả mạo: Phát hiện các hình thức giả mạo thanh toán, lừa đảo hóa đơn/sao kê, khai khống giao dịch"
+        ]
+      },
+      "MobiSafe": {
+        "Thông tin": "MobiSafe là giải pháp bảo mật đầu cuối là giải pháp bảo mật toàn diện cho người dùng sử dụng các thiết bị smartphone, tablet, máy tính của mình. Các tính năng chính gồm: bảo vệ tránh duyệt và ngăn hàng truy cập, Bảo vệ quyền riêng tư, chống mã độc hại malware và ransomware; giám sát danh tính cho khách hàng; giám sát web đen; quản lý mật khẩu mạnh; bảo vệ trẻ em bằng quy tắc giới hạn; chế độ trò chơi điện tử trên máy tính Windows. Giải pháp này có thể đồng bộ thành 1 ứng dụng cài trên các hệ điều hành Windows, MacOS, Android, IOS hoặc có thể tích hợp vào ứng dụng của MobiFone.",
+        "Chức năng chính": [
+          "Có cơ chế giám sát hoạt động các thiết bị (PC, Laptop, tablet, phone...) trên môi trường Internet của các thành viên trong gói dịch vụ",
+          "Có tính năng bảo vệ người dùng khi truy cập các ngân hàng trực tuyến",
+          "Có tính năng kiểm soát, truy cập Web an toàn",
+          "Có tính năng Anti Virus trên thiết bị (chỉ có trên các thiết bị Adroid và Windows PC)",
+          "Có tính năng bảo vệ trẻ em trên không gian mạng",
+          "Có tính năng tăng hiệu suất thiết bị khi chơi games",
+          "Có tính năng bảo vệ danh tính người dùng 24/7",
+          "Có tính năng chống lừa đảo trực tuyến",
+          "Có tính năng tạo và lưu trữ mật khẩu siêu mạnh và duy nhất"
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Sử dụng trên các thiết bị PC, Laptop, tablet, phone",
+        "Hình thức cung cấp dịch vụ": "Đăng ký gói cước dịch vụ cho khách hàng",
+        "Đối tượng KH": {
+          "CÁ NHÂN": [
+            "Độ tuổi: 25 đến 34",
+            "Nghề nghiệp: Công nghệ, doanh nghiệp nước ngoài, kinh doanh",
+            "Sở thích: Công nghệ mới, du lịch, công tác",
+            "Nhu cầu: Bảo vệ thông tin cá nhân, ngân hàng, VPN",
+            "Thông điệp truyền thông: Chi tiết tính năng, công nghệ, nghiên cứu, số liệu và hình ảnh minh họa",
+            "Hình ảnh quảng bá: Thiết bị thông minh, phần mềm"
+          ],
+          "STREAMER": [
+            "Độ tuổi: 18 đến 25",
+            "Sở thích: Chơi game trực tuyến, Esport, mua sắm vật phẩm game",
+            "Nhu cầu: Bảo vệ tài khoản, giao dịch, VPN, tăng hiệu năng chơi game",
+            "Thông điệp truyền thông: Tính năng, hình ảnh nhân vật game",
+            "Hình ảnh quảng bá: Game"
+          ],
+          "PHỤ HUYNH": [
+            "Độ tuổi: 25 đến 54",
+            "Gia đình: Có con từ 7 đến 18 tuổi",
+            "Nghề nghiệp: Doanh nghiệp",
+            "Sở thích: Mua sắm trực tuyến, đọc tin tức mạng xã hội",
+            "Nhu cầu: Bảo vệ gia đình, trẻ em, an toàn internet",
+            "Thông điệp truyền thông: Đội ngũ chuyên nghiệp, đơn giản, giải quyết vấn đề",
+            "Hình ảnh quảng bá: Gia đình, trẻ em"
+          ],
+          "DOANH NGHIỆP VỪA VÀ NHỎ (QUY MÔ DƯỚI 150 NGƯỜI)": [
+            "Quản trị máy tính nhân viên trong giờ làm, tăng độ tập trung và năng suất lao động",
+            "Hạn chế link độc trong mail, bảo vệ internet doanh nghiệp tránh bị hack dữ liệu"
+          ],
+          "KHÁCH HÀNG SỬ DỤNG NGÂN HÀNG, CHỨNG KHOÁN": [
+            "Hạn chế lừa đảo giao dịch, chiếm đoạt tài sản"
+          ]
+        },
+        "Lợi ích, giá trị của SPDV": "Bảo vệ cho các thiết bị trên không gian mạng"
+      },
+      "Antivirus – AV": {
+        "Thông tin": "Sản phẩm Phòng chống Virus (Antivirus – AV) cho các máy chủ Cloud là phần mềm bảo mật được thiết kế để bảo vệ máy chủ, hệ thống và dữ liệu trên nền tảng đám mây khỏi các mối đe dọa từ mã độc, virus, malware, ransomware, và các phần mềm độc hại khác. Giải pháp này hoạt động trên cơ sở phát hiện, ngăn chặn và loại bỏ các mã độc có khả năng gây hại cho dữ liệu và ứng dụng đang vận hành trên các máy chủ cloud.",
+        "Chức năng chính": [
+          "Bảo vệ Toàn diện Chống Phần mềm Độc hại: Sử dụng công nghệ quét tiên tiến để phát hiện và ngăn chặn các loại phần mềm độc hại, bao gồm virus, ransomware, spyware và trojan",
+          "Phân tích Hành vi và Phát hiện Mối đe dọa Tiên tiến: Sử dụng trí tuệ nhân tạo (AI) và học máy để phân tích hành vi của các tệp và ứng dụng, phát hiện các mối đe dọa tiềm ẩn trước khi chúng gây hại",
+          "Quét Theo Thời gian Thực: Đảm bảo mọi tệp và dữ liệu được quét và bảo vệ ngay lập tức khi truy cập hoặc tải lên đám mây",
+          "Bảo mật Ứng dụng Đám mây: Tích hợp mạnh mẽ với các ứng dụng và dịch vụ đám mây của MobiFone, đảm bảo mọi hoạt động và dữ liệu trên đám mây được bảo vệ an toàn",
+          "Cập nhật Tự động: Hệ thống tự động cập nhật cơ sở dữ liệu chống phần mềm độc hại và các bản vá bảo mật mới nhất, đảm bảo luôn bảo vệ trước các mối đe dọa mới nhất",
+          "Quản lý Tập trung: Giao diện quản lý thân thiện cho phép quản trị viên dễ dàng theo dõi và kiểm soát tình trạng bảo mật của một toàn bộ hệ thống từ một bảng điều khiển trung tâm",
+          "Báo cáo và Cảnh báo Chi tiết: Cung cấp báo cáo chi tiết và cảnh báo tức thì về các mối đe dọa và các sự kiện bảo mật, giúp quản trị viên nhanh chóng phát hiện và phản ứng"
+        ],
+        "Giải thưởng, chứng nhận": [
+          "AV-TEST ORG AWARD 2023 Best Performance",
+          "AV-TEST ORG AWARD 2023 Best Protection"
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Bảo vệ các máy chủ Cloud khỏi các nguy cơ tấn công bằng mã độc, virus máy tính",
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)"
+        ],
+        "Đối tượng KH": "Các cá nhân, doanh nghiệp sử dụng Cloud của MobiFone",
+        "Lợi ích, giá trị của SPDV": [
+          "Bảo vệ và diệt virus tự động theo thời gian thực",
+          "Hủy, xóa vĩnh viễn dữ liệu chứng thực, phục hồi, dọn dẹp hệ thống, xóa file rác, dữ liệu thừa...",
+          "Phòng vệ chủ động phát hiện tấn công thông minh, ngăn giữ tấn công lợi dụng lỗ hổng bảo mật",
+          "Bảo mật thông tin cá nhân, kiểm soát ứng dụng, ngăn ngừa các ứng dụng độc hại"
+        ]
+      },
+      "Security Audit/Penetration Testing, Red Team": {
+        "Thông tin": "Pentest là Dịch vụ Xác định các lỗ hổng bảo mật của ứng dụng Web App, Mobile App bằng một cuộc tấn công kiểm thử xâm nhập thực sự với vai trò hacker bên ngoài RedTeam là Dịch vụ giả lập tấn công mạng hệ thống.",
+        "Chức năng chính": [
+          "Kiểm tra, đánh giá phát hiện lỗ hổng là một trong các nhiệm vụ ưu tiên và quan trọng nhất trong công tác đảm bảo an toàn thông tin; kiểm tra, đánh giá giúp chủ quản hệ thống thông tin chủ động phát hiện và khắc phục các lỗ hổng, điểm yếu, nguy cơ tồn tại trên hệ thống"
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Dịch vụ kiểm thử ứng dụng, Web: Rà soát các lỗ hổng, điểm yếu trong các hệ thống phần mềm, ứng dụng web, ứng dụng di động, firmware,... của khách hàng chủ quản. Tư vấn cho khách hàng các phương pháp lập trình phần mềm an toàn, cảnh báo về mã nguồn phần mềm trước việc dịch ngược mã nguồn",
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": "Cơ quan, tổ chức, cá nhân tham gia hoặc có liên quan đến hoạt động xây dựng, thiết lập, quản lý, vận hành, nâng cấp, mở rộng hệ thống thông tin tại Việt Nam phục vụ ứng dụng công nghệ thông tin trong hoạt động của cơ quan, tổ chức; chức năng nhà nước; ứng dụng công nghệ thông tin trong việc cung cấp dịch vụ trực tuyến phục vụ người dân và doanh nghiệp",
+        "Lợi ích, giá trị của SPDV": [
+          "Hỗ trợ đánh giá mức độ ATTT của hệ thống",
+          "Nâng cao khả năng phòng thủ cho hệ thống",
+          "Phát hiện các điểm yếu mà các hình thức kiểm tra khác bỏ sót",
+          "Giảm thiểu chi phí bảo mật trong tương lai",
+          "Phát hiện lỗ hổng bảo mật nguy hiểm trên hệ thống",
+          "Giúp giảm thiểu thiệt hại cho hệ thống",
+          "Đánh giá khả năng sẵn sàng chống lại các cuộc tấn công mạng thực sự"
+        ]
+      },
+      "Security Operation Center (ATTT – SOC)": {
+        "Thông tin": "Thực hiện theo dõi giám sát 24/7 an toàn thông tin cho phép phát hiện, phân phối và khắc phục các mối đe dọa tấn công mạng.",
+        "Chức năng chính": [
+          "Dịch vụ giám sát an toàn thông tin giúp theo dõi các sự kiện về an toàn bảo mật trên hệ thống CNTT 24/7 và đưa ra cảnh báo sự kiện bất thường, có nguy cơ gây mất an toàn thông tin cho các hệ thống thông tin của cơ quan, tổ chức"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Đánh giá, phân tích những lỗ hổng tiềm ẩn",
+          "Quản lý sự kiện và các thông tin bảo mật, giúp phát hiện và ứng phó với các mối đe dọa bảo mật trước khi chúng ảnh hưởng đến hoạt động kinh doanh",
+          "Hỗ trợ ứng cứu và xử lý các sự cố an ninh mạng",
+          "Chủ động giám sát trạng thái an ninh của toàn bộ hệ thống theo thời gian thực",
+          "Tự động tối đa các quy trình nghiệp vụ, tối ưu nhân lực vận hành hệ thống",
+          "Gửi báo cáo định kỳ (theo ngày, tuần, tháng, quý, năm) hoặc theo thời gian thực"
+        ],
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": [
+          "Các tổ chức, doanh nghiệp vừa và nhỏ cần giải pháp tăng cường giám sát an toàn thông tin cho cả hệ thống",
+          "Các sở ban ngành tại các tỉnh có nhu cầu thuê giải pháp giám sát ATTT để bảo vệ các hệ thống thông tin"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Hầu như không tốn chi phí tài sản cố định",
+          "Dễ dàng triển khai một cách nhanh chóng",
+          "Không cần phải thuê thêm nhân sự duy trì",
+          "Được giám sát và vận hành bởi một nhóm IT có chuyên môn cao",
+          "Không bị ràng buộc bởi hợp đồng dài hạn và chỉ cần trả một mức chi phí vô cùng phải chăng mỗi tháng"
+        ]
+      },
+      "OWAF Firewall": {
+        "Thông tin": "Tường lửa ứng dụng web là một bộ giải pháp bảo đảm an toàn thông tin ứng dụng cho các cuộc tấn công phổ biến từ trang web, các API trước các cuộc tấn công, các mô hình đe dọa từng bước chung được biết đến bằng các công cụ ruleset mạnh mẽ được tích hợp trí tuệ nhân tạo AI giúp nâng cao hiệu năng hoạt động.",
+        "Chức năng chính": [
+          "Web Application Firewall (WAF) còn được gọi tường lửa ứng dụng web. WAF được triển khai dưới dạng một thiết bị proxy chuyên biệt, có khả năng xử lý giao thức HTTP và nhiệm vụ chính là bảo vệ ứng dụng web",
+          "WAF thực hiện việc kiểm tra lưu lượng truy cập đến, truy cập dựa trên tập các luật ứng dụng web. WAF sẽ thực hiện một loạt các quy tắc kiểm tra bảo mật để loại bỏ những yêu cầu có tiềm năng gây nguy cơ hoặc đe dọa đến website"
+        ],
+        "Đặc điểm, công nghệ nổi bật": "WAF có khả năng phát hiện và ngăn chặn nhiều loại tấn công như SQL injection, cross-site scripting và các cuộc tấn công lợi dụng lỗ hổng bảo mật trong ứng dụng web. Khác với tường lửa mạng (Firewall) thông thường chỉ đóng vai trò như một cổng an toàn giữa các server, WAF là một biện pháp bảo mật ứng dụng được thiết kế để bảo vệ Web Client và Web Server",
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm trên hạ tầng của MobiFone (On-cloud)",
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": [
+          "Các doanh nghiệp vừa và nhỏ cần giải pháp tường lửa bảo vệ cho ứng dụng web",
+          "Các sở ban ngành tại các tỉnh có nhu cầu thuê giải pháp tường lửa để bảo vệ ứng dụng web và đáp ứng hồ sơ cấp độ an toàn thông tin"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "An toàn hoạt động Website, máy chủ của khách hàng",
+          "Bảo mật toàn diện cho trang web"
+        ]
+      },
+      "Dịch vụ Diễn tập an toàn thông tin": {
+        "Thông tin": "Dịch vụ tổ chức diễn tập thực chiến an toàn thông tin (còn gọi diễn tập tấn công và phòng thủ thực chiến) là hoạt động giả lập các tình huống tấn công mạng nhằm kiểm tra và đánh giá năng lực bảo vệ hệ thống của đội ngũ nhân sự làm công tác an ninh mạng của tổ chức trước những mối đe dọa an ninh mạng thực tế.",
+        "Chức năng chính": [
+          "Mục tiêu chính của dịch vụ này là tăng cường khả năng ứng phó và nâng cao sự sẵn sàng của đội ngũ an ninh mạng thông qua việc mô phỏng các kịch bản tấn công và phòng thủ trong môi trường thực tế",
+          "Giả lập tấn công mạng: Tạo ra các tình huống tấn công mạng như tấn công DDoS, xâm nhập hệ thống, khai thác lỗ hổng bảo mật,... nhằm xác định các điểm yếu và khả năng đối phó của hệ thống",
+          "Phòng thủ và ứng phó sự cố: Đội ngũ an ninh mạng của tổ chức sẽ tham gia vào quá trình bảo vệ hệ thống và phản ứng lại các tình huống tấn công, từ đó cải thiện quy trình và nâng cao kỹ năng ứng phó sự cố"
+        ],
+        "Đặc điểm, công nghệ nổi bật": "Dịch vụ diễn tập an toàn thông tin mạng nhằm hướng dẫn tổ chức và thực hiện các hoạt động đào tạo,huấn luyện, bồi dưỡng nâng cao kiến thức, kỹ năng về an toàn thông tin cho các cơ quan, tổ chức và các doanh nghiệp, tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin giám sát an toàn thông tin mạng giúp theo dõi các sự kiện về an toàn bảo mật trên hệ thống CNTT 24x7 và đưa ra cảnh báo sự kiện bất thường, có nguy cơ gây mất an toàn thông tin cho các hệ thống thông tin của cơ quan, tổ chức",
+        "Hình thức cung cấp dịch vụ": [
+          "Cho thuê dịch vụ / Bán sản phẩm theo yêu cầu, cài đặt trên hạ tầng khách hàng (On-premise)"
+        ],
+        "Đối tượng KH": [
+          "Các tổ chức có số lượng khách hàng lớn và quản lý dữ liệu nhạy cảm cần đảm bảo an toàn thông tin cho hệ thống và dữ liệu khách hàng như:",
+          "Doanh nghiệp tài chính, ngân hàng",
+          "Tổ chức bảo hiểm",
+          "Cơ quan chính phủ",
+          "Tập đoàn lớn",
+          "Nhà cung cấp dịch vụ công nghệ, viễn thông",
+          "Đơn vị y tế"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Nâng cao kỹ năng, kỹ thuật chuyên môn trong phát hiện, phòng chống và phản ứng trước các cuộc tấn công vào hệ thống CNTT của tổ chức",
+          "Xây dựng và hình thành các chiến thuật trong việc phản ứng trước các sự cố ATTT có thể xảy ra trong hệ thống",
+          "Nâng cao các kỹ thuật và cải thiện các quy trình trong phản ứng và ứng cứu các sự cố ATTT"
+        ]
+      }
+    },
+    "Chương 3": {
+      "mobiAgri": {
+        "Thông tin": "Nền tảng nông nghiệp số mobiAgri là nền tảng được MobiFone phát triển theo định hướng chuyển đổi số nông nghiệp của Chính phủ. Sử dụng của mobiAgri là đem chuyên môn nông nghiệp đến gần hơn với người nông dân, giải quyết những nỗi đau của người dân và trở thành người bạn tư vấn, đồng hành đáng tin cậy trong lĩnh vực cây trồng.",
+        "Chức năng chính": [
+          "Bác sĩ cây trồng: Nhận diện, chẩn đoán sâu bệnh hại",
+          "Thời tiết chuyên sâu: Cập nhật thời tiết tại vị trí người dùng, cảnh báo mùa đông bất thường, dự báo thời tiết 24h, 14 ngày, 6 tháng",
+          "Cộng đồng nông nghiệp: Kết nối những người yêu thích trồng cây để cùng chia sẻ kinh nghiệm và kiến thức canh tác",
+          "Kết nối chuyên gia: Tư vấn chuyên gia hàng đầu trong lĩnh vực nông nghiệp",
+          "Tra cứu thuốc bảo vệ thực vật: Số hóa danh mục Thuốc BVTV được phép lưu hành và cấm lưu hành tại Việt Nam kèm các khuyến nghị sử dụng",
+          "Giá cả thị trường: Cập nhật hàng ngày và biến động giá các nông sản có giá trị xuất khẩu/phổ biến: cà phê, hồ tiêu, cao su, điều, rau củ quả,...",
+          "Dữ liệu cây trồng: Cung cấp ngân hàng kiến thức cây trồng",
+          "Lịch nông vụ: Hướng dẫn kỹ thuật chăm sóc (làm đất, chiết cành, gieo hạt, nước….) và bảo vệ cây trồng khỏi dịch hại theo từng giai đoạn phát triển"
+        ],
+        "Hình thức sử dụng dịch vụ": [
+          "Ứng dụng: mobiAgri",
+          "Website: https://mobiagri.vn"
+        ],
+        "Đối tượng KH": [
+          "Khách hàng cá nhân",
+          "Khách hàng doanh nghiệp",
+          "Khách hàng cơ quan, tổ chức trong lĩnh vực nông nghiệp"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Ứng dụng các công nghệ Big data, AI, Blockchain, AR, VR, OTT, chat GPT...",
+          "Data Ingestion tích hợp (Trạm khí tượng, cây trồng, ảnh chụp, ảnh AI và Machine Learning, DL, Kafka)"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Chẩn đoán bệnh hại cây trồng nhanh chóng: Chỉ cần chụp ảnh, AI sẽ phân tích và đưa ra kết quả chính xác",
+          "Tư vấn kỹ thuật chuyên sâu: Kết nối trực tiếp với các chuyên gia nông nghiệp để được giải đáp mọi thắc mắc trong quá trình sản xuất",
+          "Dự báo thời tiết chính xác: Giúp người dùng lên kế hoạch sản xuất phù hợp, tránh rủi ro do thời tiết",
+          "Thông tin thị trường cập nhật: Giúp nông dân tìm hiểu về giá cả, nhu cầu của thị trường",
+          "Cộng đồng người dùng đông đảo: Giúp nông dân nhanh chóng trao đổi thông tin, chia sẻ kinh nghiệm canh tác trực tuyến với nhau và với chuyên gia"
+        ],
+        "Giải thưởng, chứng nhận": [
+          "Giải vàng Stevie Award 2024",
+          "Giải bạc Digital ASEAN Awards 2024",
+          "Thương hiệu Quốc gia Việt Nam 2024",
+          "Giải thưởng Sao Khuê 2023",
+          "Giải thưởng Make in Vietnam năm 2023",
+          "Giải thưởng Chuyển đổi số Việt Nam 2022",
+          "Giải thưởng Đổi mới sáng tạo phát triển Doanh nghiệp lần thứ III năm 2024",
+          "Top 10 Doanh nghiệp Agritech"
+        ]
+      },
+      "MobiFone Money": {
+        "Thông tin": "MobiFone Money là hệ sinh thái Tài chính số của MobiFone, cung cấp cho khách hàng các dịch vụ tài chính trên nền tảng số một cách dễ dàng, nhanh chóng và an toàn. Khách hàng có thể sử dụng dịch vụ mọi lúc, mọi nơi mà chưa cần tài khoản ngân hàng hay kết nối Internet.",
+        "Chức năng chính": [
+          "Chuyển tiền điện tử, nạp/rút tiền mặt tại điểm giao dịch",
+          "Thanh toán giao dịch tại các điểm mua sắm hàng hóa tại các điểm chấp nhận thanh toán hóa đơn (điện, nước, di động, internet,...)",
+          "Dịch vụ hỗ trợ thu hộ, chi hộ cho các doanh nghiệp, tổ chức",
+          "Các dịch vụ tài chính: thanh toán trước trả sau, cho vay, gửi tiết kiệm,..."
+        ],
+        "Hình thức sử dụng dịch vụ": ["Ứng dụng MobiFone Money"],
+        "Đối tượng KH": ["Khách hàng cá nhân", "Khách hàng doanh nghiệp"],
+        "Lợi ích, giá trị của SPDV": [
+          "An toàn, bảo mật",
+          "Thao tác dễ dàng",
+          "Thanh toán nhiều dịch vụ",
+          "Chuyển, nhận tiền linh hoạt",
+          "Ưu đãi cực hấp dẫn"
+        ]
+      },
+      "mobiEdu": {
+        "Thông tin": "mobiEdu là hệ sinh thái giáo dục số toàn diện do MobiFone phát triển. Được tích hợp các công nghệ hiện đại cùng nội dung chuẩn, mobiEdu đồng hành cùng người dùng, người học và các cơ sở giáo dục đào tạo góp phần vào công cuộc chuyển đổi số giáo dục.",
+        "Chức năng chính": [
+          "mobiEdu là hệ sinh thái giáo dục số gồm 3 trụ cột chính: Giải pháp số quản lý đào tạo cho trường học/doanh nghiệp, Nền tảng nội dung học tập đồ sộ, cộng đồng học tập trực tuyến",
+          "Hệ sinh thái mobiEdu đồng hành cùng doanh nghiệp/các trường nhà trường, giáo viên và người học để nâng cao tri thức, nâng tầm nguồn nhân lực Việt, góp phần vào công cuộc chuyển đổi số giáo dục theo xu hướng chung của thế giới"
+        ],
+        "Đặc điểm, công nghệ nổi bật": [
+          "Công nghệ AI tư vấn học tập",
+          "Công nghệ Adaptive Learning học tập thích ứng",
+          "Công nghệ SCORM - học tập tương tác"
+        ],
+        "Hình thức sử dụng dịch vụ": [
+          "Website: https://mobiedu.vn",
+          "Các website/ứng dụng của các sản phẩm API",
+          "Các website/ứng dụng của các giải pháp nổi bật"
+        ],
+        "Đối tượng KH": {
+          "B2G": ["Sở, ban, ngành"],
+          "B2B": ["Trường học, Cơ sở giáo dục", "Tổ chức, doanh nghiệp"],
+          "B2C": [
+            "Học sinh, sinh viên, người đi làm",
+            "Giảng viên, giáo viên, người dạy tự do"
+          ]
+        },
+        "Lợi ích, giá trị của SPDV": [
+          "Cung cấp thông tin hữu ích bên cạnh các sản phẩm chất lượng: Cung cấp các sân chơi lành mạnh phục vụ đúng nhu cầu của đối tượng mục tiêu (ví dụ: sân chơi English Beat tổ chức tại các tỉnh được học sinh, giáo viên, nhà trường và các bộ/ban/ngành cực kì quan tâm và ủng hộ)",
+          "Cung cấp trang wiki đại học (https://daihoc.mobiedu.vn) với các thông tin về hơn 200 trường đại học trong nước, giúp sĩ tử dễ dàng tìm kiếm thông tin chuẩn và có định hướng",
+          "Các thông tin hữu ích khác được đăng tải trên website, fanpage, và các trang vệ tinh của mobiEdu thông qua các chiến dịch. Ví dụ: chiến dịch “Sống đúng cá tính - Nhích đúng trường” 2023 cung cấp các thông tin về kiến thức, kĩ năng, kinh nghiệm ôn và thi trong giai đoạn nước rút",
+          "Đa dạng nội dung học tập: Các nội dung học tập đa dạng về hình thức (học trên website, app), đa dạng về chủ đề từ STEM, điện tử tin học,... đến kinh doanh, đời sống...",
+          "Đáp ứng đa dạng nhu cầu các đối tượng học tập: Với đối tượng B2C: các khóa học phục vụ được tất cả các đối tượng từ trẻ em đến học sinh phổ thông, sinh viên và người đi làm. Với đối tượng B2B: các giải pháp cung cấp ứng dụng các sản phẩm học tập/nhà trường với những tính năng được thiết kế rất sát với nghiệp vụ, ví dụ: SLT mobiEdu, iKB mobiEdu, mSchool, eClass...",
+          "Chi phí hợp lý với linh hoạt bản khóa học theo chủ kì: Các khóa học đọc sẵn với hình thức combo hoặc theo nhu cầu ký/tuần/tháng, giúp người dùng tiết kiệm chi phí, tập mà vẫn nhận được những trải nghiệm học tập tốt nhất",
+          "Các gói cước bundle có các combo sản phẩm khác tương ứng với nhu cầu cá nhân mỗi trong từng chu kì, tháng kèm theo data 3G/4G, thoại, hỗ trợ tối đa việc tra cứu, tìm kiếm thông tin"
+        ],
+        "Giải thưởng, chứng nhận": [
+          "Giải vàng Stevie Award 2021",
+          "Giải thưởng Sao Khuê 2021",
+          "Công trình Sáng tạo tiêu biểu 2020 - 2021",
+          "Thương hiệu Quốc gia 2022",
+          "EDUTECH Award 2022",
+          "Top Công nghiệp 4.0 2022",
+          "Sản phẩm hợp tác 2023",
+          "Top 10 Make in Vietnam 2023",
+          "Nền tảng số Quốc gia tiềm năng",
+          "Viet Research 2024",
+          "Thương hiệu Quốc gia 2024",
+          "Sản phẩm Chuyển đổi số tiêu biểu của năm 2024"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": {
+          "Khách hàng B2B": [
+            "Hơn 200 cơ sở giáo dục phổ thông gồm các trường THCS, THPT và TT GDTX trên khắp các địa bàn thuộc 9 CTKV - triển khai các giải pháp học tập trực tuyến và quản lý trường học (Ôn luyện, VietSchool, mSchool), có những khách hàng đã triển khai liên tục sang năm thứ 3 (Sở GD-ĐT Hải Phòng, THPT Đông Đô (Hà Nội)...)"
+          ],
+          "Khách hàng B2C": [
+            "Các khách hàng trong độ tuổi học sinh (sản phẩm mobiStudy, MobiEnglish, Mlearn, Học Mãi, MathX...); sinh viên và người đi làm (sản phẩm Gitiho, VoizFM, TOEIC, Elsa...)"
+          ],
+          "Khách hàng B2G": [
+            "Bộ TT&TT, cùng 44 Sở TT&TT của các địa phương (tiêu biểu có các Sở TT&TT Đồng Nai, Quảng Bình, Hà Tĩnh, Khánh Hòa...) và 155 bộ ngành khác trong Chương trình Đào tạo nâng cao nhận thức về Chuyển đổi số (mobiEdu MOOCS)",
+            "Phòng VHTT và các UBND các thị xã/TP Ben Cát, Bảo Bàng, Tân Uyên (Bình Dương), UBND các tỉnh Hải Phòng, Việt Yên (Bắc Giang), Sơn La... (mobiEdu mSchool - phần hệ trang thi)"
+          ]
+        }
+      },
+      "ClipTV": {
+        "Thông tin": "ClipTV là một dịch vụ Truyền hình Internet đa nền tảng giúp khách hàng xem trực tiếp các kênh truyền hình đặc sắc trong và ngoài nước cũng như theo dõi các bộ phim, show truyền hình, các giải bóng đá và các video nội dung bản quyền độc quyền, máy tính bảng cũng như trên Smart TV. Đáp ứng nhu cầu xem truyền hình của khách hàng, hỗ trợ thúc đẩy chuyển đổi số quốc gia trên lĩnh vực truyền hình - viễn thông.",
+        "Chức năng chính": [
+          "Kho nội dung phong phú: ClipTV cung cấp một thư viện lớn với hàng ngàn bộ phim, chương trình truyền hình, và video giải trí nhiều thể loại khác nhau",
+          "Truyền hình trực tiếp: Người dùng có thể xem các kênh truyền hình trực tiếp với chất lượng cao, bao gồm các kênh trong nước và quốc tế",
+          "Xem lại chương trình: ClipTV cho phép người dùng xem lại các chương trình đã phát sóng trong vòng 7 ngày, giúp bạn không bỏ lỡ bất kỳ nội dung yêu thích nào",
+          "Đa nền tảng: Dịch vụ này có thể được sử dụng trên nhiều thiết bị khác nhau như điện thoại thông minh, máy tính bảng, máy tính và TV thông minh",
+          "Gợi ý thông minh: ClipTV sử dụng công nghệ AI để gợi ý nội dung phù hợp với sở thích của người dùng dựa trên lịch sử xem của của khách hàng",
+          "Không quảng cáo: Người dùng có thể trải nghiệm nội dung mà không bị gián đoạn bởi quảng cáo"
+        ],
+        "Hình thức sử dụng dịch vụ": [
+          "Ứng dụng",
+          "Website",
+          "Wapsite",
+          "Smart TV"
+        ],
+        "Đối tượng KH": [
+          "Khách hàng cá nhân",
+          "Khách hàng doanh nghiệp, hộ gia đình"
+        ],
+        "Lợi ích, giá trị của SPDV": [
+          "Tính năng Kids mode giới hạn nội dung trẻ em",
+          "Tính năng login bằng QRCode và mã Token",
+          "Cung cấp cho khách hàng hơn 170 kênh truyền hình trong nước và quốc tế, các nội dung VOD",
+          "Đăng nhập bằng sinh trắc học",
+          "Tự động gia hạn trên cổng thanh toán Momo trên ClipTV"
+        ],
+        "Giải thưởng, chứng nhận": ["Sao Khuê 2022", "Sao Khuê 2024"],
+        "Khách hàng tiêu biểu đang sử dụng": [
+          "Khách hàng cá nhân",
+          "Khách hàng doanh nghiệp",
+          "Khách hàng trẻ tuổi"
+        ]
+      },
+      "MobiGames": {
+        "Thông tin": "MobiGames là hệ sinh thái cung cấp giải pháp chơi game trên đa nền tảng, đa thể loại, bao gồm Game portal, cổng Game Tournament Online trên Website & Mobile App và các sản phẩm khác trong hệ sinh thái Online Gaming. MobiGames cung cấp nội dung game đa dạng theo người dùng, định hướng trở thành Platform Game mở thu hút đông đảo cộng đồng các nhà phát triển, nhà phát hành, nhà cung cấp game, người dùng, trở thành nhà công phân phối và tổ chức giải đấu game hàng đầu tại Việt Nam.",
+        "Chức năng chính": [
+          "Website Portal MobiGames: Chơi Game: MobiGames cung cấp 500+ game Casual đa dạng thể loại",
+          "Gói cước: MobiGames cung cấp đa dạng các gói cước hợp tác cùng các NPH Game lớn trên thị trường",
+          "m-Tour: MobiGames cho phép người dùng tự tạo và quản lý giải đấu esport/cửa hàng mini",
+          "Tin tức/video: Cung cấp các tin tức và video mới nhất về lĩnh vực game, esport, giải trí",
+          "Ứng dụng GamiGO - MobiGames: Chơi Game: Trải nghiệm 100+ game/casual",
+          "Nhiệm vụ: Làm nhiệm vụ theo ngày/tuần/tháng nhận Gpoint/Energy",
+          "Tournament: Tham gia giải đấu cùng người chơi khác và nhận phần thưởng hấp dẫn",
+          "Tạo phòng và Thách đấu Bạn bè Trong Phòng Tự Chọn",
+          "Shop: Cung cấp đa dạng gói",
+          "Dịch vụ Cloud Gaming - MobiGames: Cloud Gaming - Dịch vụ trò chơi đám mây cho phép khách hàng có thể trải nghiệm trong tâm quan game khác nhau đến từ nhiều nhà sản xuất trò chơi nổi tiếng trên thế giới trên đa dạng các nền tảng thiết bị mà không yêu cầu khách hàng phải tải từng nội dung trò chơi hay yêu cầu cấu hình phần cứng"
+        ],
+        "Đặc điểm, công nghệ nổi bật": ["Công nghệ cloud game", "HTML5"],
+        "Hình thức sử dụng dịch vụ": [
+          "Ứng dụng di động",
+          "Website https://mobigames.vn",
+          "Website cloudgaming.mobigames.vn"
+        ],
+        "Đối tượng KH": ["Khách hàng cá nhân"],
+        "Lợi ích, giá trị của SPDV": [
+          "MobiGames - Platform cung cấp giải pháp chơi game trên đa nền tảng, đa thể loại, định hướng trở thành Platform Game mở thu hút đông đảo cộng đồng các nhà phát triển, nhà phát hành, nhà cung cấp game và người dùng tại Việt Nam",
+          "Trải Nghiệm Game Đa Dạng, Phong Phú: Mobigames là tổng hợp những trò chơi đỉnh cao từ nhiều thể loại khác nhau. Từ những trò chơi hành động sôi động cho đến những trò chơi logic thú vị, mọi người đều có cơ hội tìm thấy trò chơi ưng ý của mình tại đây",
+          "Thách Thức Bản Thân với Các Giải Đấu Online: Hãy tham gia vào các giải đấu online thú vị mỗi ngày để thể hiện tài năng và săn lùng những phần thưởng giá trị. Đây là cơ hội tuyệt vời để chứng tỏ bản thân và gặt hái những thành tựu vang dội",
+          "Gói Cước Siêu Hấp Dẫn, Thỏa Sức Trải Nghiệm: Với các gói cước độc quyền, người chơi có thể trải nghiệm trò chơi một cách linh hoạt và tiết kiệm. Đồng thời, hãy tham gia đua thứ hạng để có cơ hội nhận những phần thưởng hấp dẫn từ Mobigames",
+          "Kết Nối và Khám Phá Cùng Mobigames: Cùng Mobigames, bạn không chỉ là một người chơi mà còn là một phần của cộng đồng game đầy sôi động. Hãy cùng nhau khám phá và chia sẻ niềm đam mê với hàng triệu game thủ khác trên toàn thế giới!"
+        ],
+        "Giải thưởng, chứng nhận": [
+          "Sao Khuê 2024",
+          "Giải thưởng Đổi mới, sáng tạo phát triển doanh nghiệp lần thứ II, năm 2024"
+        ],
+        "Khách hàng tiêu biểu đang sử dụng": ["Khách hàng trẻ tuổi (18-35)"]
+      },
+      "mobiOn": {
+        "Thông tin": "mobiOn là dịch vụ xem livestream, video theo yêu cầu mọi lúc mọi nơi. Dịch vụ cung cấp video độc sắc, chất lượng cao đa dạng theo các lĩnh vực giải trí như TVShow, Hài, Âm nhạc, Thể thao, bóng đá, eSport, Phim, Du lịch, ẩm thực, Thời trang, Thiếu nhi.",
+        "Chức năng chính": [
+          "Lưu lại chương trình đã xem, thêm nội dung yêu thích, hẹn giờ để không bỏ lỡ chương trình yêu thích",
+          "Đề xuất nội dung cá nhân hóa dựa trên hành vi và lịch sử xem, giúp người dùng lựa chọn chương trình phù hợp nhất",
+          "Thoải mái bình luận, yêu thích, chia sẻ video và tương tác trực tiếp với Streamer hay KOLs trong livestream"
+        ],
+        "Hình thức sử dụng dịch vụ": ["Ứng dụng mobion", "Website mobion.vn"],
+        "Đối tượng KH": ["Khách hàng cá nhân"],
+        "Lợi ích, giá trị của SPDV": [
+          "Giải trí theo yêu cầu",
+          "Tương tác, giao lưu cùng các Streamer, KOL",
+          "Tham gia các mini game"
+        ],
+        "Giải thưởng, chứng nhận": ["Chuyển đổi số 2023", "Sao Khuê 2024"],
+        "Khách hàng tiêu biểu đang sử dụng": ["Khách hàng trẻ tuổi (18-35)"]
+      }
+    },
+    "Thông tin liên hệ": {
+      "Tên đơn vị": "Tổng công ty Viễn Thông MobiFone",
+      "Địa chỉ": "Số 01 phố Phạm Văn Bạch, Phường Yên Hòa, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam",
+      "Điện thoại": "(+84-24) 37831800",
+      "Fax": "(+84-24) 37831734",
+      "Website": "www.mobifone.vn"
+    }
+  }
+}
