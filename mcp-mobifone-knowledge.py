@@ -157,8 +157,8 @@ def search_services(query: str, top_k: int = 1) -> str:
 
     Trả về: 1 json chứa thông tin về dịch vụ mà khách hàng muốn biết
     """
-    if top_k > 5:
-        top_k = 5
+    if top_k > 1:
+        top_k = 1
     
     try:
         results = service_embeddings.search(query, top_k)
@@ -185,8 +185,8 @@ def search_services(query: str, top_k: int = 1) -> str:
     
 if __name__ == "__main__":
     service_embeddings.load_embeddings()
-    test_query = "du lịch thông minh "
-    result = search_services(test_query, top_k=1)
-    with open("output.txt", "w", encoding="utf-8") as f:
-        f.write(result)
-    # mcp.run(transport="stdio")
+    # test_query = "Phần mềm kế toán MobiFone Accounting Solution"
+    # result = search_services(test_query, top_k=1)
+    # with open("output.txt", "w", encoding="utf-8") as f:
+    #     f.write(result)
+    mcp.run(transport="stdio")
