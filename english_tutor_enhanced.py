@@ -645,7 +645,7 @@ def list_all_topics(level: Optional[str] = None) -> dict:
             topics = {}
             for lvl in LESSON_DATABASE:
                 topics[lvl] = list(LESSON_DATABASE[lvl].keys())
-        
+        logger.info(f"Topics: {topics}")
         return {
             "success": True,
             "data": topics
@@ -675,7 +675,7 @@ def get_topic_vocabulary(level: str, topic: str) -> dict:
             return {"success": False, "error": f"Chủ đề {topic} không tồn tại ở cấp độ {level}."}
         
         lesson = LESSON_DATABASE[level][topic]
-        
+        logger.info(f"Vocabulary: {lesson['vocabulary']}")
         return {
             "success": True,
             "level": level,
@@ -705,7 +705,7 @@ def get_guiding_questions(level: str, topic: str) -> dict:
             return {"success": False, "error": "Chủ đề hoặc cấp độ không tồn tại."}
         
         lesson = LESSON_DATABASE[level][topic]
-        
+        logger.info(f"Questions: {lesson['guiding_questions']}")
         return {
             "success": True,
             "level": level,
@@ -735,7 +735,7 @@ def get_sample_paragraphs(level: str, topic: str) -> dict:
             return {"success": False, "error": "Chủ đề hoặc cấp độ không tồn tại."}
         
         lesson = LESSON_DATABASE[level][topic]
-        
+        logger.info(f"Paragraphs: {lesson['sample_paragraphs']}")
         return {
             "success": True,
             "level": level,
@@ -765,7 +765,7 @@ def get_role_play_scenarios(level: str, topic: str) -> dict:
             return {"success": False, "error": "Chủ đề hoặc cấp độ không tồn tại."}
         
         lesson = LESSON_DATABASE[level][topic]
-        
+        logger.info(f"Scenarios: {lesson['role_play_scenarios']}")
         return {
             "success": True,
             "level": level,
@@ -815,9 +815,6 @@ def start_conversation(level: str, topic: str) -> dict:
             "level": level,
             "topic": lesson["topic_name"],
             "vocabulary_count": len(lesson["vocabulary"]),
-            "opening_question": opening_question["question"],
-            "opening_question_vi": opening_question["question_vi"],
-            "tip": f"Hãy bắt đầu bằng cách trả lời câu hỏi trên. Cố gắng sử dụng từ vựng liên quan đến chủ đề {lesson['topic_name']}!",
             "available_tools": [
                 "get_topic_vocabulary - Xem từ vựng chủ đề",
                 "get_guiding_questions - Xem các câu hỏi dẫn dắt",
