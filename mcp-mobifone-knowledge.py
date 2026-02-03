@@ -46,6 +46,13 @@ class ServiceEmbeddings:
                         services[service_name]['_chapter'] = chapter_name
         return services
     
+    def get_toc(self) -> Dict[str, Any]:
+        """Returns the 'Mục lục' section from the data."""
+        data = self.load_data()
+        root = data.get("Tài liệu giới thiệu hệ sinh thái giải pháp số MobiFone", {})
+        return root.get("Mục lục", {})
+
+    
     def _service_to_text(self, service_name: str, service_details: Dict[str, Any]) -> str:
         """Convert service details to searchable text."""
         text_parts = [f"Tên dịch vụ: {service_name}"]
@@ -148,17 +155,29 @@ class ServiceEmbeddings:
 service_embeddings = ServiceEmbeddings()
 
 @mcp.tool()
-def search_services(query: str, top_k: int = 1) -> str:
+def get_mobi_toc() -> str:
+    """
+    Tool này dùng để lấy toàn bộ danh mục (Mục lục) các dịch vụ và giải pháp của MobiFone. 
+    Giúp bạn có cái nhìn tổng quan về các nhóm sản phẩm (Cloud, Giải pháp số, Nội dung số) và danh sách các dịch vụ đi kèm.
+    """
+    try:
+        toc = service_embeddings.get_toc()
+        return json.dumps(toc, ensure_ascii=False, indent=2)
+    except Exception as e:
+        return json.dumps({"error": str(e)}, ensure_ascii=False, indent=2)
+
+@mcp.tool()
+def search_services(query: str, top_k: int = 5) -> str:
     """
     Tool này dùng để tìm kiếm thông tin chi tiết về các dịch vụ hoặc giải pháp số của mobifone.
 
-    query: dịch vụ mà khách hàng muốn biết
-    top_k: mặc định bằng 1
+    query: câu hỏi của khách hàng
+    top_k: mặc định bằng 5
 
     Trả về: 1 json chứa thông tin về dịch vụ mà khách hàng muốn biết
     """
-    if top_k > 1:
-        top_k = 1
+    if top_k > 5:
+        top_k = 5
     
     try:
         results = service_embeddings.search(query, top_k)
@@ -185,8 +204,8 @@ def search_services(query: str, top_k: int = 1) -> str:
     
 if __name__ == "__main__":
     service_embeddings.load_embeddings()
-    # test_query = "Phần mềm kế toán MobiFone Accounting Solution"
-    # result = search_services(test_query, top_k=1)
-    # with open("output.txt", "w", encoding="utf-8") as f:
-    #     f.write(result)
+    test_query = " phân phối lưu lượng"
+    result = search_services(test_query, top_k=1)
+    with open("output.txt", "w", encoding="utf-8") as f:
+        f.write(result)
     mcp.run(transport="stdio")

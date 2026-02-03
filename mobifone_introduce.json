@@ -2,78 +2,78 @@
   "Tài liệu giới thiệu hệ sinh thái giải pháp số MobiFone": {
     "Mục lục": {
       "Hạ tầng số Cloud": [
-        "Dịch vụ Thuê chỗ đặt thiết bị MobiFone Co-location",
-        "Dịch vụ Máy chủ ảo MobiFone Cloud",
-        "Dịch vụ Lưu trữ Website, Email MobiFone Hosting",
-        "Dịch vụ Cung cấp nền tảng Kubernetes",
-        "Dịch vụ Cân bằng tải MobiFone Load Balancer",
-        "Dịch vụ MobiFone Virtual Private Cloud",
-        "Dịch vụ Lưu trữ đám mây dạng Khối",
-        "Dịch vụ Lưu trữ đám mây dạng Đối tượng",
-        "Dịch vụ Lưu trữ đám mây dạng Tệp",
-        "Dịch vụ Vận hành và quản lý Cloud",
-        "Dịch vụ Lưu trữ cho khách hàng cá nhân mobiCloud"
+        "Dịch vụ Thuê chỗ đặt thiết bị MobiFone Co-location.",
+        "Dịch vụ Máy chủ ảo MobiFone Cloud.",
+        "Dịch vụ Lưu trữ Website, Email MobiFone Hosting.",
+        "Dịch vụ Cung cấp nền tảng Kubernetes.",
+        "Dịch vụ Cân bằng tải MobiFone Load Balancer.",
+        "Dịch vụ MobiFone Virtual Private Cloud.",
+        "Dịch vụ Lưu trữ đám mây dạng Khối.",
+        "Dịch vụ Lưu trữ đám mây dạng Đối tượng.",
+        "Dịch vụ Lưu trữ đám mây dạng Tệp.",
+        "Dịch vụ Vận hành và quản lý Cloud.",
+        "Dịch vụ Lưu trữ cho khách hàng cá nhân mobiCloud."
       ],
       "Giải pháp số": {
         "Bộ Sản Phẩm Mobifone Smart Office": [
-          "Giải pháp Quản lý văn bản MobiFone eOffice",
-          "Nền tảng Họp trực tuyến thế hệ mới MobiFone Meet",
-          "Giải pháp Quản lý công việc MobiFone eWork",
-          "Giải pháp Quản lý nhân sự MobiFone HRM",
-          "Giải pháp Đào tạo trực tuyến MobiFone eLearning",
-          "Giải pháp Phòng họp không giấy tờ MobiFone eCabinet"
+          "Giải pháp Quản lý văn bản MobiFone eOffice.",
+          "Nền tảng Họp trực tuyến thế hệ mới MobiFone Meet.",
+          "Giải pháp Quản lý công việc MobiFone eWork.",
+          "Giải pháp Quản lý nhân sự MobiFone HRM.",
+          "Giải pháp Đào tạo trực tuyến MobiFone eLearning.",
+          "Giải pháp Phòng họp không giấy tờ MobiFone eCabinet."
         ],
         "Bộ sản phẩm cho SMEs": [
-          "Dịch vụ Chứng thực chữ ký số công cộng MobiFone CA",
-          "Giải pháp Hóa đơn điện tử MobiFone Invoice",
-          "Giải pháp Phần mềm kế toán MobiFone Accounting Solution",
-          "Giải pháp Quản lý bán hàng MobiFone 1POS",
-          "Giải pháp Hợp đồng điện tử có tích xanh MobiFone eContract",
-          "Phần mềm Bảo hiểm xã hội MobiFone mBH",
-          "Phần mềm Quản lý hóa đơn điện tử MobiFone IMS"
+          "Dịch vụ Chứng thực chữ ký số công cộng MobiFone CA.",
+          "Giải pháp Hóa đơn điện tử MobiFone Invoice.",
+          "Giải pháp Phần mềm kế toán MobiFone Accounting Solution.",
+          "Giải pháp Quản lý bán hàng MobiFone 1POS.",
+          "Giải pháp Hợp đồng điện tử có tích xanh MobiFone eContract.",
+          "Phần mềm Bảo hiểm xã hội MobiFone mBH.",
+          "Phần mềm Quản lý hóa đơn điện tử MobiFone IMS."
         ],
         "Hệ sinh thái Du lịch thông minh (MobiFone Smart Travel)": [
-          "Ứng dụng Du lịch thông minh MobiFone Smart Travel",
-          "Giải pháp Số hóa địa điểm du lịch AR/VR360",
-          "Cổng thông tin du lịch",
-          "Triển lãm ảo/Gian hàng ảo"
+          "Ứng dụng Du lịch thông minh MobiFone Smart Travel.",
+          "Giải pháp Số hóa địa điểm du lịch AR/VR360.",
+          "Cổng thông tin du lịch.",
+          "Triển lãm ảo/Gian hàng ảo."
         ],
-        "Chuyển đổi số công tác Đảng": "Giải pháp Sổ tay Đảng viên",
-        "Chuyển đổi số Báo chí": "Giải pháp Tòa soạn hội tụ",
+        "Chuyển đổi số công tác Đảng": "Giải pháp Sổ tay Đảng viên.",
+        "Chuyển đổi số Báo chí": "Giải pháp Tòa soạn hội tụ.",
         "Phát thanh số": [
-          "Giải pháp Truyền thanh thông minh",
-          "Giải pháp Quản lý thông tin nguồn thông minh"
+          "Giải pháp Truyền thanh thông minh.",
+          "Giải pháp Quản lý thông tin nguồn thông minh."
         ],
         "Nhóm sản phẩm AI": [
-          "Giải pháp Tự động hóa tác vụ RPA",
-          "Giải pháp Trợ lý ảo AI",
-          "Bộ giải pháp Giám sát thông minh",
-          "Giải pháp Chuyển đổi giọng nói thành văn bản Speech-to-Text",
-          "Giải pháp Chuyển đổi văn bản thành giọng nói Text-to-Speech",
-          "Giải pháp Định danh khách hàng MobiFone eKYC"
+          "Giải pháp Tự động hóa tác vụ RPA.",
+          "Giải pháp Trợ lý ảo AI.",
+          "Bộ giải pháp Giám sát thông minh.",
+          "Giải pháp Chuyển đổi giọng nói thành văn bản Speech-to-Text.",
+          "Giải pháp Chuyển đổi văn bản thành giọng nói Text-to-Speech.",
+          "Giải pháp Định danh khách hàng MobiFone eKYC."
         ],
         "Nhóm sản phẩm IOT": [
-          "Giải pháp Nhà thông minh MobiFone",
-          "Giải pháp Đồng hồ nước thông minh",
-          "Giải pháp Camera gia đình MobiFone",
-          "Giải pháp Loa thần tài MobiFone (MobiFone QR sound)"
+          "Giải pháp Nhà thông minh MobiFone.",
+          "Giải pháp Đồng hồ nước thông minh.",
+          "Giải pháp Camera gia đình MobiFone.",
+          "Giải pháp Loa thần tài MobiFone (MobiFone QR sound)."
         ],
         "Nhóm sản phẩm An ninh mạng": [
-          "Sản phẩm Internet an toàn cho thuê bao MobiFone",
-          "Sản phẩm Phòng chống Virus (Antivirus – AV) cho các máy chủ Cloud",
-          "Dịch vụ Kiểm định, kiểm tra, đánh giá an toàn thông tin",
-          "Dịch vụ Giám sát ATTT – SOC",
-          "Sản phẩm Tường lửa ứng dụng Website OWAF (Open Web Application Firewall)",
-          "Dịch vụ Diễn tập an toàn thông tin"
+          "Sản phẩm Internet an toàn cho thuê bao MobiFone.",
+          "Sản phẩm Phòng chống Virus (Antivirus – AV) cho các máy chủ Cloud.",
+          "Dịch vụ Kiểm định, kiểm tra, đánh giá an toàn thông tin.",
+          "Dịch vụ Giám sát ATTT – SOC.",
+          "Sản phẩm Tường lửa ứng dụng Website OWAF (Open Web Application Firewall).",
+          "Dịch vụ Diễn tập an toàn thông tin."
         ]
       },
       "Nội dung số": [
-        "Nền tảng Nông nghiệp số mobiAgri",
-        "Hệ sinh thái Tài chính số MobiFone Money",
-        "Hệ sinh thái Giáo dục số mobiEdu",
-        "Nền tảng Truyền hình Internet đa nền tảng ClipTV",
-        "Nền tảng Online Gaming MobiFone - MobiGames",
-        "Nền tảng Giải trí tương tác mobiOn"
+        "Nền tảng Nông nghiệp số mobiAgri.",
+        "Hệ sinh thái Tài chính số MobiFone Money.",
+        "Hệ sinh thái Giáo dục số mobiEdu.",
+        "Nền tảng Truyền hình Internet đa nền tảng ClipTV.",
+        "Nền tảng Online Gaming MobiFone - MobiGames.",
+        "Nền tảng Giải trí tương tác mobiOn."
       ]
     },
     "Chương 1": {
